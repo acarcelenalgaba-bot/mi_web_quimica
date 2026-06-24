@@ -186,68 +186,47 @@ En **estado sólido no conducen la electricidad**, ya que los iones están fuert
 
 **ENLACE METÁLICO (MODELO DE GAS ELECTRÓNICO)**
 
-El modelo más sencillo de enlace metálico se basa en una de las propiedades carac-
-terísticas de los metales: su baja electronegatividad (ceden electrones con facilidad).
-Así pues, el enlace metálico podemos describirlo como una disposición muy
-ordenada y compacta de iones positivos del metal (red metálica) entre
-los cuales se distribuyen los electrones perdidos por cada átomo a modo
-de “nube electrónica”.
-Es importante observar que los electrones pueden circular libremente entre los ca-
-tiones, no están ligados (sujetos) a lo núcleos y son compartidos por todos ellos (se
-dice que los electrones están deslocalizados)
-Esta nube electrónica hace de “colchón” entre las cargas positivas impidiendo que
-se repelan, a la vez que mantienen unidos los átomos del metal.
-18ENLACE METÁLICO (TEORÍA DE BANDAS)
-El modelo de la teoría de bandas, supone que, al estar tan cerca los átomos
-de los metales unos de otros, sus orbitales de valencia se superponen entre sí,
-dando lugar a un conjunto de orbitales muy parecidos que constituyen lo que
-se llama “banda de niveles energéticos”.
+El modelo más sencillo de enlace metálico se basa en una de las propiedades características de los metales: su baja electronegatividad (ceden electrones con facilidad).
+
+Así pues, el **enlace metálico** podemos describirlo como una **disposición muy ordenada y compacta de iones positivos del metal** (red metálica) **entre los cuales se distribuyen los electrones perdidos por cada átomo a modo de “nube electrónica”**.
+
+Es importante observar que los electrones pueden circular libremente entre los cationes, no están ligados (sujetos) a lo núcleos y son compartidos por todos ellos (se dice que los electrones están **deslocalizados**)
+
+Esta nube electrónica hace de “colchón” entre las cargas positivas impidiendo que se repelan, a la vez que mantienen unidos los átomos del metal.
+
+**ENLACE METÁLICO (TEORÍA DE BANDAS)**
+
+El modelo de la teoría de bandas, supone que, al estar tan cerca los átomos de los metales unos de otros, sus orbitales de valencia se superponen entre sí, dando lugar a un conjunto de orbitales muy parecidos que constituyen lo que se llama “banda de niveles energéticos”.
+
 La banda de valencia está formada por los orbitales atómicos de valencia.
-La banda de conducción está formada por los primeros orbitales atómicos
-vacíos.
-En los metales ambas bandas se solapan o es-
-tán muy próximas y la energía que hay que
-aportar para que un electrón pase de una a
-otra es mínima.
-En los aislantes dichas bandas están muy se-
-paradas, y en los semiconductores la dis-
-tancia no es muy grande.
-19ENLACE METÁLICO (TEORÍA DE BANDAS)
-Si un cristal está formado por N átomos de Li, en el existirán N orbitales
-moleculares totalmente llenos, procedentes de la interacción de los orbitales
-atómicos 1s, otros N orbitales moleculares semillenos que derivan de la inter-
-acción de los orbitales 2s, y 3N orbitales moleculares vacíos (de la interacción
-de los orbitales atómicos 2p), cuya banda se superpone energéticamente con
-la correspondiente a los orbitales 2s.
-Cuando como en este caso, los electrones pue-
-den moverse por todo el metal al aplicar un
-campo eléctrico externo, hablamos de banda
-de conducción.
-Por tanto en este caso los elementos que po-
-seen esta estructura de bandas son conduc-
-tores.
-20ENLACE METÁLICO (TEORÍA DE BANDAS)
-La diferencia de energía, (distancia entre bandas) disminuye cuando descen-
-demos en un grupo, para el caso del carbono su valor es 107 Kj/mol, y para
-el Pb (último elemento del grupo) 8 Kj/mol; esto evidencia la transición del
-carácter no metálico a metálico de los elementos implicados.
-21RESUMEN PROPIEDADES DE LOS METALES
-En los metales tampoco se forman moléculas individuales. La situación es
-muy parecida a la encontrada en el caso de los compuestos iónicos. Sus propiedades
-son:
-- Son sólidos a temperatura ambiente (a excepción del mercurio) de densidad
-elevada. La red metálica es una estructura muy ordenada (típica de los sólidos) y
-compacta (con los iones muy bien empaquetados, muy juntos, densidad alta)
-- Temperaturas de fusión y ebullición altas, síntoma de que el enlace entre los
-átomos es fuerte.
-- Buenos conductores del calor y la electricidad, debido a la existencia de
-electrones libres que pueden moverse.
-- Ductilidad, tenacidad y maleabilidad, debido
-a la posibilidad de que las capas de iones se pueden
-deslizar unas sobre otras sin que se rompa la red me-
-tálica.
-- El característico brillo metálico es también una consecuencia de la existencia
-de electrones libres que pueden absorber y emitir luz de diversas frecuencias.
+
+La banda de conducción está formada por los primeros orbitales atómicos vacíos.
+
+En los metales ambas bandas se solapan o están muy próximas y la energía que hay que aportar para que un electrón pase de una a otra es mínima.
+
+En los aislantes dichas bandas están muy separadas, y en los semiconductores la distancia no es muy grande.
+
+Si un cristal está formado por N átomos de Li, en el existirán N orbitales moleculares totalmente llenos, procedentes de la interacción de los orbitales atómicos 1s, otros N orbitales moleculares semillenos que derivan de la interacción de los orbitales 2s, y 3N orbitales moleculares vacíos (de la interacción de los orbitales atómicos 2p), cuya banda se superpone energéticamente con la correspondiente a los orbitales 2s.
+
+Cuando como en este caso, los electrones pueden moverse por todo el metal al aplicar un campo eléctrico externo, hablamos de banda de conducción.
+
+Por tanto en este caso los elementos que poseen esta estructura de bandas son conductores.
+
+La diferencia de energía, (distancia entre bandas) disminuye cuando descendemos en un grupo, para el caso del carbono su valor es 107 Kj/mol, y para el Pb (último elemento del grupo) 8 Kj/mol; esto evidencia la transición del carácter no metálico a metálico de los elementos implicados.
+
+**PROPIEDADES DE LOS METALES**
+
+En los metales tampoco se forman moléculas individuales. La situación es muy parecida a la encontrada en el caso de los compuestos iónicos. Sus propiedades son:
+
+- Son sólidos a temperatura ambiente (a excepción del mercurio) de densidad elevada. La red metálica es una estructura muy ordenada (típica de los sólidos) y compacta (con los iones muy bien empaquetados, muy juntos, densidad alta)
+
+- Temperaturas de fusión y ebullición altas, síntoma de que el enlace entre los átomos es fuerte.
+
+- Buenos conductores del calor y la electricidad, debido a la existencia de electrones libres que pueden moverse.
+
+- Ductilidad, tenacidad y maleabilidad, debido a la posibilidad de que las capas de iones se pueden deslizar unas sobre otras sin que se rompa la red metálica.
+
+- El característico brillo metálico es también una consecuencia de la existencia de electrones libres que pueden absorber y emitir luz de diversas frecuencias.
 
 
 ## 5. **Enlace covalente**
