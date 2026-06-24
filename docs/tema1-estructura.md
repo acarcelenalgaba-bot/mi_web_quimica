@@ -1,6 +1,6 @@
 # Tema 1: Estructura atómica de la materia
 
-[Descargar este tema en PDF](tema1-estructura.pdf){ .md-button .md-button--primary download="" }
+[:material-file-download: Descargar este tema en PDF](index.pdf){ .md-button .md-button--primary download="tema1-estructura.pdf" }
 
 ---
 
