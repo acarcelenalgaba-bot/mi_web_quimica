@@ -237,21 +237,18 @@ En el enlace covalente, los dos átomos no metálicos comparten uno o más elect
 
 Entre los dos átomos pueden compartirse uno, dos o tres pares de electrones, lo cual dará lugar a la formación de un enlace simple, doble o triple respectivamente.
 
-De esta manera alcanzan los ocho electrones en la última capa (2 en el caso del hidrógeno, pues así alcanza la configuración del He, 1 s2 .
+De esta manera alcanzan los ocho electrones en la última capa (2 en el caso del hidrógeno, pues así alcanza la configuración del He, $\ce{1 s^2}$.
 
-Los átomos se acercan hasta que los orbitales se solapan. Los electrones de
-ambos átomos se mueven ahora en una "zona común": orbital molecular.
-Es un enlace característico entre átomos de electronegatividad alta
-(no metales).
-Cuando los átomos se unen mediante
-este tipo de enlace se forman unas nue-
-vas entidades integradas por los átomos
-unidos: las moléculas.
-Las moléculas son las unidades bá-
-sicas de los compuestos covalen-
-tes.
-24PROPIEDADES DE SUSTANCIAS COVALENTES
-MOLECULARES
+Los átomos se acercan hasta que los orbitales se solapan. Los electrones de ambos átomos se mueven ahora en una "zona común": **orbital molecular**.
+
+Es un enlace característico entre átomos de electronegatividad alta (no metales).
+
+Cuando los átomos se unen mediante este tipo de enlace se forman unas nuevas entidades integradas por los átomos unidos: las moléculas.
+
+Las moléculas son las unidades básicas de los compuestos covalentes.
+
+**PROPIEDADES DE SUSTANCIAS COVALENTES MOLECULARES**
+
 Las unidades estructurales básicas son las moléculas.
 Suelen ser gases o líquidos. Si son sólidos presentarán puntos de fusión
 relativamente bajos ya que entre las moléculas existen unas fuerzas de atrac-
