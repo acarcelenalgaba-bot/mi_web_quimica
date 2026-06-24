@@ -34,7 +34,7 @@ markdown_extensions:
   - pymdownx.superfences
   - toc:
       permalink: false
-      title: "📋 Contenidos del Curso"
+      title: "📋 Contenidos"
   - pymdownx.magiclink
   
 

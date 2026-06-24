@@ -1,8 +1,4 @@
----
-setting:
-  toc:
-    title: "📋 Contenidos del Tema"
----
+
 
 ## **1. Modelos anteriores a Bohr**.
 
@@ -789,9 +785,9 @@ Por tanto, habrá que comunicarles mucha energía para arrancárselos.
  
 ## **8. Partículas subatómicas y evolución del universo**.
 
-Más allá de los protones, neutrones y electrones descritos, a lo largo del siglo XX se fueron descubriendo una gran cantidad de nuevas partículas gracias a nuevos y potentes aparatos, entre los que destacan los aceleradores de psrtículas. En ellos, las partículas se aceleran a velocidades altísimas y se hacen chocar unas con otras.
+Más allá de los protones, neutrones y electrones descritos, a lo largo del siglo XX se fueron descubriendo una gran cantidad de nuevas partículas gracias a nuevos y potentes aparatos, entre los que destacan los aceleradores de partículas. En ellos, las partículas se aceleran a velocidades altísimas y se hacen chocar unas con otras.
 
-Como resultado de esos choques se producen nuevas partículas, la mayoría de ellas de vida muy efímera, muy inestables. En los años 60 se llegó a hablar del “zoo de partículas”, con alrededor de 200 descritas.
+Como resultado de esos choques se producen nuevas partículas, la mayoría de ellas de vida muy efímera, muy inestables. En los años 60 se llegó a hablar del “zoo de partículas”, con alrededor de 200 partículas descritas.
 
 A ello hay que sumar la existencia de “antimateria”, predicha por Paul Dirac en 1930, confirmada dos años después al encontrar positrones (la antipartícula del electrón) en los rayos cósmicos.
 

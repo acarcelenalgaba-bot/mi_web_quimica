@@ -6,8 +6,6 @@ Utiliza el siguiente índice para acceder directamente a cada unidad didáctica:
 
 ---
 
-## 📚 Índice de Contenidos
-
 ### ⚛️ Bloque 1: Estructura de la Materia y Enlace
 *   **[Tema 1: Estructura Atómica y Propiedades Periódicas](tema1-estructura.md)**
     *   *Contenido:* Modelo mecanocuántico, números cuánticos, configuración electrónica de la EBAU y justificación de propiedades periódicas ($Z_{ef}$).
