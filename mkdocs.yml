@@ -30,7 +30,8 @@ markdown_extensions:
   - tables
   - attr_list
   - pymdownx.arithmatex:
-      generic: true
+      generic: false
+      smart_dollar: true  # Permite usar $ y $$ de forma inteligente
   - pymdownx.superfences
   - toc:
       permalink: false
@@ -42,10 +43,9 @@ plugins:
   - search
   - pdf-export:
       combined: false # Genera un PDF independiente por cada página .md
+      media_type: print
 
-extra_javascript:
-  - javascripts/mathjax.js
-  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+extra_javascript: []
 
 extra_css:
   - stylesheets/extra.css

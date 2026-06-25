@@ -20,8 +20,20 @@
 }
 
 @media print {
-    /* Oculta la barra de navegación lateral en el PDF final */
-    .md-nav, .md-sidebar {
-        display: none;
+    /* Evita que el contenido se oculte o colapse en una sola página */
+    .md-content, 
+    .md-content__inner, 
+    article, 
+    body, 
+    html {
+        overflow: visible !important;
+        height: auto !important;
+        max-height: none !important;
+        display: block !important;
+    }
+
+    /* Evita saltos de página huérfanos dentro de los temas */
+    h1, h2, h3 {
+        page-break-after: avoid;
     }
 }

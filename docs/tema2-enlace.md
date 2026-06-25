@@ -1,7 +1,6 @@
 # Tema 2: Enlace químico
 
-[Descargar este tema en PDF](tema2-enlace.pdf){ .md-button .md-button--primary download="" }
-
+[Descargar este tema en PDF](../pdf/tema2-enlace.pdf){ .md-button .md-button--primary download="" }
 ---
 
 ## 1. **Introducción**
@@ -94,9 +93,9 @@ En los **compuestos iónicos no se puede hablar de moléculas individuales**, si
 
 Ejemplos:
 
-KCl. La relación de iones $\ce{K^+}$ e iones $\ce{Cl^−}$ es 1:1 (hay el mismo número de ambos).
+KCl. La relación de iones $\ce{K^+}$ e iones $\ce{Cl^-}$ es 1:1 (hay el mismo número de ambos).
 
-$\ce{CaCl2}$. Hay doble número de iones $\ce{Cl^−}$ que de iones $\ce{Ca^{2+}}$
+$\ce{CaCl2}$. Hay doble número de iones $\ce{Cl^-}$ que de iones $\ce{Ca^{2+}}$
 
 El número de iones de determinado signo que rodean a otro de signo contrario recibe el nombre de **índice de coordinación del ión** y depende del tamaño relativo de ambos.
 
@@ -126,19 +125,19 @@ Es obvio que se necesita muy buena visión espacial para distinguir las celdilla
 
 Tomemos como ejemplo el NaCl. Si partimos de Na y Cl en sus estados normales, Na (s) y $\ce{Cl2}$ (g), para que se produzca la reacción global:
 
-$\ce{\hspace{3cm} Na \; (s) + \dfrac {1}{2}  Cl2 \; (g) \; \rightarrow \; NaCl \; (s) \hspace{2cm} \Delta H_f < 0}$
+$\ce{\hspace{3cm} Na (s) + \dfrac {1}{2}  Cl2 (g) \; \rightarrow \; NaCl (s) \hspace{2cm} \Delta H_f < 0}$
 
 Podemos considerar los siguientes procesos intermedios:
 
 $\ce{Na (s) \; \rightarrow \; Na (g) , \Delta H_{sub} > 0}$, energía de sublimación del Na.
 
-$\ce{Na (g) \; \rightarrow \; Na+ (g) + e^− , E{.}I{.} > 0}$, energía de ionización del sodio.
+$\ce{Na (g) \; \rightarrow \; Na+ (g) + e^- , E{.}I{.} > 0}$, energía de ionización del sodio.
 
 $\ce{\dfrac {1}{2} Cl2 (g) \; \rightarrow \; Cl (g) , \dfrac {1}{2} \Delta H_{dis} > 0}$, energía de disociación del cloro.
 
 $\ce{Cl (g) + e^- \; \rightarrow \; Cl (g) , A{.}E{.} < 0}$, afinidad electrónica del cloro.
 
-$\ce{Na^+ (g) + Cl^− (g) \; \rightarrow \; NaCl (s) , U_r < 0}$, energía reticular del NaCl.
+$\ce{Na^+ (g) + Cl^- (g) \; \rightarrow \; NaCl (s) , U_r < 0}$, energía reticular del NaCl.
 
 La **energía reticular** es la **energía que se desprende al formarse un mol de cristal iónico a partir de sus componentes en estado gaseoso**.
 
@@ -148,7 +147,7 @@ Un **cristal iónico** será, por tanto **más estable** (más duro, menos solub
 
 Una **forma de calcular la energía reticular**, $\ce{U_r}$ se puede hacer mediante un **balance energético**:
 
-![Texto alternativo](imagenes/tema02/ciclo.png){ style="display: block; margin: 0 auto; height: 150px; width: 40%;" }
+![Texto alternativo](imagenes/tema02/ciclo.png){ style="display: block; margin: 0 auto; height: 150px; width: 35%;" }
 
 La suma de los procesos parciales coincide con el proceso de combinación químico directo, por ello podemos concluir que la suma de sus variaciones energéticas coincidirá con la de la reacción global:
 
@@ -156,7 +155,7 @@ $\ce{\Delta H_f = \Delta H_{sublimaci{ó}n} + EI + \dfrac {1}{2} \Delta H_{disoc
 
 con lo que:
 
-$\ce{Ur = \Delta H_f − \Delta H_{sub} − EI − \dfrac {1}{2} \Delta H_{dis} − AE}$
+$\ce{Ur = \Delta H_f - \Delta H_{sub} - EI - \dfrac {1}{2} \Delta H_{dis} - AE}$
 
 **ENERGÍA RETICULAR**
 
@@ -417,7 +416,7 @@ O
 
 OO
 Ozono, O3
-O−
+O-
 N
 
 
@@ -425,7 +424,7 @@ O
 O
 O
 O
-O−O−
+O-O-
 N
 
 N
@@ -443,7 +442,7 @@ los átomos (electrones de valencia): EV.
 1. Calculamos el total de electrones que caben en la capa de valencia de todos
 los átomos: ET.
 1. El número total de electrones compartidos (EC) se obtiene al restar los
-disponibles de los que caben: EC = ET − EV
+disponibles de los que caben: EC = ET - EV
 1. Se colocan los EC enlazando los átomos.
 2. El resto de los electrones se colocan como pares no compartidos para com-
 pletar el octeto de los átomos.
@@ -465,8 +464,8 @@ EVET
 2
 Electrones de valencia disponibles: 4 + 3 · 6 + 2 · 1 = 24
 Capacidad de la capa de valencia: 8 + 3 · 8 + 2 · 2 = 36
-Electrones compartidos: EC = ET − EV = 36 − 24 = 12 (seis pares)
-Electrones sin compartir: 24 − 12 = 12 (seis pares). Así que:
+Electrones compartidos: EC = ET - EV = 36 - 24 = 12 (seis pares)
+Electrones sin compartir: 24 - 12 = 12 (seis pares). Así que:
 O
 H
 O
@@ -543,9 +542,9 @@ En física se llama dipolo eléctrico a un sistema de dos cargas de signo opuest
 igual magnitud cercanas entre sí.
 Se define el momento dipolar eléctrico como una magnitud vectorial con módulo
 igual al producto de la carga q por la distancia que las separa d, cuya dirección va
-−
+-
 →
-−
+-
 →
 de la carga negativa a la positiva:
 p = q· d
