@@ -286,18 +286,20 @@ Cuando en un mismo compuesto existen dos o más grupos funcionales, el orden de 
 
 El orden decreciente de prioridad es el siguiente:
 
-1. **Ácidos carboxílicos** ($\ce{-COOH}$) -> Principal: Ácido ...oico | Secundario: Carboxi-
-2. **Ésteres** ($\ce{-COO-R}$) -> Principal: ...ato de ...ilo | Secundario: Alcoxicarbonil-
-3. **Amidas** ($\ce{-CONH2}$) -> Principal: ...amida | Secundario: Carbamoil-
-4. **Nitrilos** ($\ce{-CN}$) -> Principal: ...nitrilo | Secundario: Ciano-
-5. **Aldehídos** ($\ce{-CHO}$) -> Principal: ...al | Secundario: Formil- (u Oxo-)
-6. **Cetonas** ($\ce{-CO-}$) -> Principal: ...ona | Secundario: Oxo-
-7. **Alcoholes** ($\ce{-OH}$) -> Principal: ...ol | Secundario: Hidroxi-
-8. **Aminas** ($\ce{-NH2}$) -> Principal: ...amina | Secundario: Amino-
-9. **Éteres** ($\ce{-O-}$) -> Principal: ...oxi... | Secundario: Alcoxi-
-10. **Dobles enlaces** ($\ce{C=C}$) -> Principal: ...eno
-11. **Triples enlaces** ($\ce{C \equiv C}$) -> Principal: ...ino
-12. **Halógenos** ($\ce{-X}$) e **Inertes/Radicales** ($\ce{-R}$) -> Siempre secundarios
+| Grupo Funcional | Sufijo (Función Principal) | Prefijo (Función Secundaria) |
+| :--- | :--- | :--- |
+| 1. **Ácidos carboxílicos** ($\ce{-COOH}$) |  Ácido ...oico |  Carboxi- |
+| 2. **Ésteres** ($\ce{-COO-R}$) |  ...ato de ...ilo |  Alcoxicarbonil- |
+| 3. **Amidas** ($\ce{-CONH2}$) |  ...amida |  Carbamoil- |
+| 4. **Nitrilos** ($\ce{-CN}$) |  ...nitrilo |  Ciano- |
+| 5. **Aldehídos** ($\ce{-CHO}$) |  ...al |  Formil- (u Oxo-) |
+| 6. **Cetonas** ($\ce{-CO-}$) |  ...ona |  Oxo- |
+| 7. **Alcoholes** ($\ce{-OH}$) |  ...ol |  Hidroxi- |
+| 8. **Aminas** ($\ce{-NH2}$) |  ...amina |  Amino- |
+| 9. **Éteres** ($\ce{-O-}$) |  ...oxi... |  Alcoxi- |
+| 10. **Dobles enlaces** ($\ce{C=C}$) |  ...eno |
+| 11. **Triples enlaces** ($\ce{C \equiv C}$) |  ...ino |
+| 12. **Halógenos** ($\ce{-X}$) e **Inertes/Radicales** ($\ce{-R}$) | Siempre secundarios |
 
 ## **4. Isomería**
 

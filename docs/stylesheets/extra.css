@@ -19,6 +19,16 @@
   width: 100%;
 }
 
+/* Cambiar el fondo y el texto de la cabecera de las tablas */
+.md-typeset table thead tr {
+    background-color: #f4f5f5; /* Sustituye por el color hexadecimal que quieras (este es un tono teal) */
+}
+
+.md-typeset table thead tr th {
+    color: #0f0e0e; /* Color del texto de la cabecera (Blanco) */
+    font-weight: bold;
+}
+
 @media print {
     /* Evita que el contenido se oculte o colapse en una sola página */
     .md-content, 
