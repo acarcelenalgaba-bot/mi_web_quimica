@@ -171,7 +171,7 @@ Ejemplo: **4-metil-3-hidroxipentanal**:
 	\chemfig{CH_3-CH(-[2]CH_3)-CH(-[6]OH)-CH_2-CHO}
 -->
 
-![...](imagenes/tema08/hidroxipentanal.svg){style="display: block; margin: 0 auto; width: 30%;"}
+![...](imagenes/tema08/hidroxipentanal.svg){style="display: block; margin: 0 auto; width: 25%;"}
 
 ### **Fenoles**
 
@@ -229,7 +229,7 @@ Ejemplos:
 * **Butanona** (o *metil etil cetona*):
 $\ce{\hspace{0.5cm}  CH3-CO-CH2-CH3}$
 
-* **Pentán-2-ona** (o *metil propil cetona*):
+* **Pentan-2-ona** (o *metil propil cetona*):
 $\ce{\hspace{0.5cm}  CH3-CO-CH2-CH2-CH3}$
 
 ### **Ácidos carboxílicos**
@@ -264,7 +264,22 @@ $\ce{\hspace{0.5cm} CH3-CH2-COO-CH3}$
 
 ### **Aminas**
 
-Se pueden considerar derivados del amoníaco ($\ce{NH3}$) por sustitución de uno, dos o tres de sus hidrógenos por radicales alquilo o arilo, dando lugar a aminas **primarias** ($\ce{R-NH2}$), **secundarias** ($\ce{R-NH-R'}$) o **terciarias**.
+Se pueden considerar derivados del amoníaco ($\ce{NH3}$) por sustitución de uno, dos o tres de sus hidrógenos por radicales alquilo o arilo, dando lugar a aminas **primarias** ($\ce{R-NH2}$), **secundarias** ($\ce{R-NH-R'}$) o **terciarias** ($\ce{R-N(R')-R''}$).
+
+<!--
+##chemfig id=aminas sep=2em
+\schemestart
+	\subscheme{\chemfig{NH_3} 
+		\arrow{->}[0,0.7]
+		\chemfig{R-NH_2} 
+		\arrow{->}[0,0.7]
+        \chemfig{R-NH-R'} 
+		\arrow{->}[0,0.7]
+		\chemfig{R-N(-[6]R'')-R''}}
+\schemestop
+-->
+
+![...](imagenes/tema08/aminas.svg){style="display: block; margin: 0 auto; width: 60%;"}
 
 * Se pueden nombrar citando los radicales en orden alfabético seguidos de la terminación **"-amina"**.
 * En aminas complejas, se puede tomar la cadena más larga como hidrocarburo principal terminando en **"-amina"** y los demás radicales unidos al nitrógeno se nombran antecedidos por la letra **N-**.
