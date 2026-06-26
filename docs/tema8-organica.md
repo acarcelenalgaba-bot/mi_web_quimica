@@ -401,15 +401,25 @@ Los compuestos presentan idéntica conectividad molecular pero difieren en la or
 
 Cualquier reacción química consiste en la ruptura de unos enlaces y la formación de otros nuevos. Según como se rompan podemos tener: 
 
-**Ruptura homolítica u homopolar**: cada átomo participante del enlace retiene un electrón del par que constituía la unión.
+**1. Ruptura homolítica u homopolar**: cada átomo participante del enlace retiene un electrón del par que constituía la unión.
 
 ($\ce{H3C-CH3 \; \rightarrow \; H3C· + ·CH3}$) 
 
-**Ruptura heterolítica o heteropolar**: los dos electrones que constituyen el enlace son asignados al mismo fragmento.
+**2. Ruptura heterolítica o heteropolar**: los dos electrones que constituyen el enlace son asignados al mismo fragmento.
 
 $\ce{A : B \; \rightarrow \; A^+ + B^−}$
 
 La primera da lugar a radicales libres, la segunda a carbocationes o carbaniones.
+
+**Principales reactivos orgánicos**
+
+- **Radicales libres**
+
+- **Nucleófilos** (“amantes de lo positivo”, eléctricamente hablando)
+
+- **Electrófilos** (“amantes de lo negativo”)
+
+**Tipos de reacciones**
 
 **1. Reacciones de Sustitución**
 
