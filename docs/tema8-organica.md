@@ -308,6 +308,16 @@ $\ce{\hspace{0.5cm} CH3-CH2-CONH2}$
 * **N-metiletanamida**:
 $\ce{\hspace{0.5cm} CH3-CONH-CH3}$
 
+### **Nitrocompuestos**
+
+Se pueden considerar derivados de los hidrocarburos en los que se substituye uno o más hidrógenos por el grupo "nitro", $\ce{-NO2}$.
+
+Se nombran como sustituyentes del hidrocarburo del que proceden indicando con el prefijo "nitro-" y un número localizador su posición en la cadena carbonada.
+
+Las insaturaciones tienen preferencia sobre el grupo nitro:
+
+$\ce{CH2 = CH - CH2 - NO2 \hspace{1.5cm}}$  3-nitro-1-propeno
+
 ### **Nitrilos o cianuros**
 
 Se caracterizan por tener el grupo funcional **"ciano"** ($\ce{-C \equiv N}$) en un extremo de la cadena.
