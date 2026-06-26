@@ -344,8 +344,7 @@ El orden decreciente de prioridad es el siguiente:
 | 3. **Amidas** ($\ce{-CONH2}$) |  ...amida |  Carbamoil- |
 | 4. **Nitrilos** ($\ce{-CN}$) |  ...nitrilo |  Ciano- |
 | 5. **Aldehídos** ($\ce{-CHO}$) |  ...al |  Formil- (u Oxo-) |
-| 6. **Cetonas** ($\ce{-CO-}$) |  ...ona | 
- Oxo- |
+| 6. **Cetonas** ($\ce{-CO-}$) |  ...ona | Oxo- |
 | 7. **Alcoholes** ($\ce{-OH}$) |  ...ol |  Hidroxi- |
 | 8. **Aminas** ($\ce{-NH2}$) |  ...amina |  Amino- |
 | 9. **Éteres** ($\ce{-O-}$) |  ...oxi... |  Alcoxi- |
@@ -360,14 +359,19 @@ Se llaman **isómeros** a aquellos compuestos diferentes que tienen la misma fó
 **1. Isomería Estructural o Constitucional**
 
 Los átomos están unidos de forma diferente en cada molécula.
+
 * **De cadena:** Cambia la distribución de la cadena carbonada (ej. *butano* y *2-metilpropano*).
+  
 * **De posición:** El mismo grupo funcional cambia de ubicación (ej. *1-propanol* y *2-propanol*).
+ 
 * **De función:** Tienen diferente grupo funcional (ej. *etanol* y *dimetil éter*, ambos $\ce{C2H6O}$).
 
-**1. Estereoisomería (Isomería Espacial)**
+**2. Estereoisomería (Isomería Espacial)**
 
 Los compuestos presentan idéntica conectividad molecular pero difieren en la orientación tridimensional de sus átomos.
+
 * **Isomería Geométrica (cis/trans):** Propia de compuestos con doble enlace rígido $\ce{C=C}$. El isómero *cis* posee los sustituyentes principales al mismo lado, mientras que el *trans* los posee en lados opuestos.
+
 * **Isomería Óptica:** Ocurre ante la presencia de un carbono asimétrico o quiral (unido a 4 sustituyentes distintos). Da lugar a enantiómeros, imágenes especulares no superponibles que desvían la luz polarizada hacia la derecha (dextrógiro) o hacia la izquierda (levógiro).
 
 ## **5. Reacciones orgánicas principales**
