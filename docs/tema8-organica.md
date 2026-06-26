@@ -107,7 +107,7 @@ El nombre genérico de los hidrocarburos aromáticos mono y policíclicos es **"
 
 Experimentalmente se comprueba que los seis enlaces son equivalentes, de ahí que la molécula de benceno se represente como una estructura resonante entre las dos fórmulas propuestas por Kekulé.
 
-![Texto alternativo](imagenes/tema08/resonancia.png){ style="display: block; margin: 0 auto; width: 70%;" }
+<!-- ![Texto alternativo](imagenes/tema08/resonancia.png){ style="display: block; margin: 0 auto; width: 70%;" } -->
 
 <!--
 ```chemfig id=benceno sep=2em
@@ -123,10 +123,6 @@ Experimentalmente se comprueba que los seis enlaces son equivalentes, de ahí qu
 
 ![...](imagenes/benceno.svg)
 
-| 
-:-: |
-![Benceno](imagenes/benceno.svg)
-
 Cuando el benceno lleva un radical se nombra primero dicho radical seguido de la palabra **"-benceno"**.
 
 Si son dos los radicales se indica su posición relativa dentro del anillo bencénico mediante los números 1,2; 1,3 ó 1,4, teniendo el número 1 el sustituyente más importante. Sin embargo, en estos casos se sigue utilizando los prefijos **"orto-"** (1,2), **"meta-"** (1,3) y **"para-"** (1,4) para indicar esas mismas posiciones del segundo sustituyente.
@@ -137,7 +133,19 @@ Cuando el benceno actúa como radical de otra cadena se utiliza con el nombre de
 
 **Estructura de Ejemplo (Cadena con radicales fenilo)**:
 
-![Texto alternativo](imagenes/tema08/fenilos.png){ style="display: block; margin: 0 auto; width: 70%;" }
+<!-- ![Texto alternativo](imagenes/tema08/fenilos.png){ style="display: block; margin: 0 auto; width: 70%;" } -->
+
+<!--
+```chemfig id=difenilo sep=2em
+\schemestart
+	\subscheme{
+		\chemfig{[:-30]*6(=-=(-CH_2-CH([:-270]-CH_3)-CH_2-CH([:-270]-CH_2-[:0]CH_3)-CH_2-CH_2-(*6(=-=-=-)))-=-)}
+	}
+\schemestop
+```
+-->
+
+![...](imagenes/difenilo.svg)
 
 ![Texto alternativo](imagenes/tema08/aromaticos.png){ style="display: block; margin: 0 auto; width: 80%;" }
 
