@@ -388,13 +388,28 @@ Los compuestos presentan idéntica conectividad molecular pero difieren en la or
 <!--
 ##chemfig id=optica sep=2em
 \schemestart{
-\chemname{\chemfig{CH_3-CH_2-C(-[6]Cl)(-[2]OH)-CH_3}}{2-clorobutan-2-ol} }
+\chemname{\chemfig{CH_3-CH_2-C(-[6]Cl)(-[2]OH)-CH_3}}{2-clorobutan-2-ol}  \hspace{2cm}
+\chemname{\chemfig{[,1.7] C(-[2]H)(-[6]I)(<[:330]Cl)(<:[:210]Br)} }{\footnotesize bromocloroyodometano} }
 \schemestop
 -->
 
-![...](imagenes/tema08/optica.svg){style="display: block; margin: 0 auto; width: 40%;"}
+![...](imagenes/tema08/optica.svg){style="display: block; margin: 0 auto; width: 60%;"}
 
 ## **5. Reacciones orgánicas principales**
+
+**Ruptura de enlaces e intermedios de reacción**
+
+Cualquier reacción química consiste en la ruptura de unos enlaces y la formación de otros nuevos. Según como se rompan podemos tener: 
+
+**Ruptura homolítica u homopolar**: cada átomo participante del enlace retiene un electrón del par que constituía la unión.
+
+($\ce{H3C-CH3 \; \rightarrow \; H3C· + ·CH3}$) 
+
+**Ruptura heterolítica o heteropolar**: los dos electrones que constituyen el enlace son asignados al mismo fragmento.
+
+$\ce{A : B \; \rightarrow \; A^+ + B^−}$
+
+La primera da lugar a radicales libres, la segunda a carbocationes o carbaniones.
 
 **1. Reacciones de Sustitución**
 
