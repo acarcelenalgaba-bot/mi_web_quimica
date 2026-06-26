@@ -109,6 +109,14 @@ Experimentalmente se comprueba que los seis enlaces son equivalentes, de ahí qu
 
 ![Texto alternativo](imagenes/tema08/resonancia.png){ style="display: block; margin: 0 auto; width: 70%;" }
 
+<!--
+```chemfig id=benceno sep=2em
+    \chemfig{CH_3-CH([2]-CH_3)-CH_2-C(=[2]O)-OH} 
+```
+-->
+
+![...](imagenes/benceno.svg)
+
 Cuando el benceno lleva un radical se nombra primero dicho radical seguido de la palabra **"-benceno"**.
 
 Si son dos los radicales se indica su posición relativa dentro del anillo bencénico mediante los números 1,2; 1,3 ó 1,4, teniendo el número 1 el sustituyente más importante. Sin embargo, en estos casos se sigue utilizando los prefijos **"orto-"** (1,2), **"meta-"** (1,3) y **"para-"** (1,4) para indicar esas mismas posiciones del segundo sustituyente.
