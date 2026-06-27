@@ -28,7 +28,7 @@ jobs:
       - name: Instalar MkDocs y Plugins
         run: |
           pip install pip --upgrade
-          pip install mkdocs-material mkdocs-pdf-export-plugin
+          pip install mkdocs-material mkdocs-kroki-plugin mkdocs-pdf-export-plugin
 
       - name: Compilar y Desplegar en GitHub Pages
         run: |
