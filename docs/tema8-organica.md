@@ -525,24 +525,88 @@ Sin embargo, cuando el **reactivo es asimétrico** podemos obtener dos isómeros
 * Siguen la **Regla de Markovnikov**: El hidrógeno del reactivo se adiciona mayoritariamente al carbono insaturado que tenga ya más átomos de hidrógeno.
   
 * **Ejemplo (Hidratación de alquenos):**
-  
-$\ce{CH3-CH=CH2 + H2O ->[H+] CH3-CH(OH)-CH3}$ *(Producto mayoritario: 2-propanol)*
+
+<!--
+##chemfig id=metilpropanol sep=2em
+\schemestart[0, 0.8, 1.5]
+    \chemname{\chemfig{CH_3-C(-[2]CH_3)=CH_2}}{metilpropeno} 
+    \arrow{0}[,0.7] + \arrow{0}[,0.7]
+    \chemname{\chemfig{H_2O}}{agua} \arrow{0}[,0.25]
+    \arrow(.mid--.mid){->}[0,0.8] 
+    \arrow{0}[,0.75]
+    \chemname{\chemfig{CH_3-C(-[2]CH_3)(-[6]OH)-CH_3}}{mayoritario} 
+    \arrow{0}[,0.2] + \arrow{0}[,0.2]
+    \chemname{\chemfig{CH_3-CH(-[2]CH_3)-CH_2(-[6]OH)}}{minoritario}
+\schemestop
+-->
+
+![...](imagenes/tema08/metilpropanol.svg){style="display: block; margin: 0 auto; width: 100%"}
 
 **3. Reacciones de Eliminación**
 
 Dos átomos o grupos de átomos se escinden de posiciones adyacentes para dar lugar a una insaturación (doble o triple enlace).
 
-* Siguen la **Regla de Saytzeff**: Se elimina preferentemente el hidrógeno del carbono vecino que posea menos hidrógenos, obteniéndose el alqueno más sustituido y estable.
+Se pueden considerar inversas a las de adición, ya que se eliminan el mismo tipo de moléculas ($\ce{H2O}$, HBr, etc) que se adicionaban a los dobles enlaces, y el producto es lógicamente una molécula con doble enlace. Igual que antes, cuando la molécula pequeña que sale es **asimétrica**, se pueden obtener dos isómeros siguiendo la **Regla de Saytzeff**: Se elimina preferentemente el hidrógeno del carbono vecino que posea menos hidrógenos, obteniéndose el alqueno más sustituido y estable.
   
 * **Ejemplo (Deshidratación de alcoholes):**
-  
-$\ce{CH3-CH2-CH(OH)-CH3 ->[H2SO4][\Delta] CH3-CH=CH-CH3 + H2O}$ *(Producto mayoritario: but-2-eno)*
+
+<!--
+##chemfig id=butanol sep=2em
+\schemestart[0, 0.8, 1.5]
+    \chemname{\chemfig{CH_3-CH_2-CH(-[2]OH)-CH_3}}{butan-2-ol} 
+    \arrow{0}[,0.2] + \arrow{0}[,0.2]
+    \chemfig{H_2SO_4 / \Delta} \arrow{0}[,0.1]
+    \arrow(.mid--.mid){->}
+    \arrow{0}[,1.25]
+    \chemname{\chemfig{CH_3-CH=CH-CH_3}}{mayoritario} 
+    \arrow{0}[,0.2] + \arrow{0}[,0.2]
+    \chemname{\chemfig{CH_3-CH_2-CH=CH_2}}{minoritario}
+\schemestop
+-->
+
+![...](imagenes/tema08/butanol.svg){style="display: block; margin: 0 auto; width: 100%"}
+
+*(Producto mayoritario: but-2-eno)*
 
 **4. Reacciones de Oxidación y Reducción**
 
-* **Oxidación:** Un alcohol primario se oxida a aldehído y este consecutivamente a ácido carboxílico. Un alcohol secundario se oxida a cetona.
-  
+* **Oxidación:** 
+
+Como ocurre también en las reacciones de oxidación-reducción de la química inorgánica, en estas reacciones el carbono cambia de número de oxidación.
+
+Un alcohol primario se oxida a aldehído y este consecutivamente a ácido carboxílico. 
+
+Un alcohol secundario se oxida a cetona.
+
+Los oxidantes suelen ser los mismos que en inorgánica: dicromatos ($\ce{Cr2O7^{-2}}$), permanganatos ($\ce{MnO4^{-}}$), etc.
+
 * **Reducción:** Es el proceso inverso al anterior.
+
+**5. Reacciones de condensación**
+
+Por **condensación** básicamente entendemos que dos moléculas grandes se unen, liberándose una más pequeña, generalmente agua.
+
+Los dos ejemplos más importantes son la **formación de ésteres** a partir de un ácido y un alcohol, liberándose agua y la **formación de amidas**.
+
+Ejemplo de esterificación:
+
+<!--
+##chemfig id=esterificacion sep=2em
+\schemestart[0, 0.8, 1.5]
+    \chemname{\chemfig{CH_3-C(=[2]O)-OH}}{ácido etanoico} 
+    \arrow{0}[,0.2] + \arrow{0}[,0.2]
+    \chemname{\chemfig{CH_3-CH_2-CH_2-OH}}{propanol} 
+    \arrow{0}[,0.05]
+    \arrow(.mid--.mid){->}
+    \arrow{0}[,0.75]
+    \chemname{\chemfig{CH_3-COO-CH2-CH_2-CH_3}}{etanoato de propilo} 
+    \arrow{0}[,0.2] + \arrow{0}[,0.2]
+    \chemname{\chemfig{H_2O}}{agua}
+\schemestop
+-->
+
+![...](imagenes/tema08/esterificacion.svg){style="display: block; margin: 0 auto; width: 100%"}
+
 
 **Problemas complementarios (Estilo PAU)**
 
