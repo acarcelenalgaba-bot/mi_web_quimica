@@ -610,7 +610,8 @@ Ejemplo de esterificación:
 
 **Problemas complementarios (Estilo PAU)**
 
-Ejercicio 1
+**Ejercicio 1**.
+
 Para cada uno de los siguientes procesos, formula la reacción, indica el nombre de los productos y el tipo de reacción orgánica:
 
 * **a) Hidrogenación catalítica del 3-metilbut-1-eno.**
