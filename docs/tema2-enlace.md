@@ -412,79 +412,133 @@ algo más complejas:
 
 **Ejemplo de aplicacion: $\ce{H2CO3}$**
 
-Elemento
-C
-O
-H
-Configuración
-electrónica
-1 s2 2s2 p2
-1 s2 2s2 p4
-1s1
-EVET
-4
-6
-18
-8
-2
-Electrones de valencia disponibles: 4 + 3 · 6 + 2 · 1 = 24
-Capacidad de la capa de valencia: 8 + 3 · 8 + 2 · 2 = 36
+| Elemento | Configuración electrónica | EV | ET |
+| :--- | :--- | :--- |:--- |
+| C | $\ce{1s^2 2s^2 2p^2}$ | 4 | 8 |
+| O | $\ce{1s^2 2s^2 2p^4}$ | 6 | 8 |
+| H | $\ce{1s^1}$ | 1 | 2 |
+
+Electrones de valencia disponibles: 4 (C) + 6 · (3 O) + 1 · (2 H) = 24
+
+Capacidad de la capa de valencia: 8 (C) + 8 · (3 O) + 2 · (2 H) = 36
+
 Electrones compartidos: EC = ET - EV = 36 - 24 = 12 (seis pares)
+
 Electrones sin compartir: 24 - 12 = 12 (seis pares). Así que:
-O
-H
-O
-C
-O
-H
+
+<!--
+##chemfig id=carbonico sep=2em
+\chemfig{[,1] H-\charge{90=\|,270=\|}{O}-C(=[2]\charge{45=\|,135=\|}{O})-\charge{90=\|,270=\|}{O}-H}
+-->
+
+![...](imagenes/tema02/carbonico.svg){style="display: block; margin: 0 auto; width: 30%"}
 
 **Excepciones a la regla del Octeto**
 
-Los átomos de los elementos del tercer periodo en adelante no obedecen la regla del octeto en muchos de sus compuestos y se rodean de más de ocho electrones (“octeto expandido”).
+Los átomos de los elementos del **tercer periodo en adelante** no obedecen la regla del octeto en muchos de sus compuestos y se rodean de más de ocho electrones (“**octeto expandido**”).
 
 La razón es que estos elementos poseen orbitales 3d vacíos, cuya energía no es demasiado alta y que pueden ser ocupados para compartir pares electrónicos:
 
-Otros elementos de número atómico bajo, que también forman enlaces covalentes, al contrario que los anteriores, forman un “octeto incompleto”, sin llegar a tener los ocho electrones en la última capa. Es el caso del Be, B, Al.
+![...](imagenes/tema02/excepcion.png){style="display: block; margin: 0 auto; width: 70%"}
 
+Otros **elementos de número atómico bajo**, que también forman enlaces covalentes, al contrario que los anteriores, forman un “**octeto incompleto**”, sin llegar a tener los ocho electrones en la última capa. Es el caso del Be, B, Al.
+
+<!--
+##chemfig id=boruro sep=2em
+\chemfig{[,1] \charge{135=\|,225=\|,315=\|}{F}-[:30]B(-[:90]\charge{0=\|,90=\|,180=\|}{F})(-[:-30]\charge{45=\|,225=\|,315=\|}{F})} 
+-->
+
+![...](imagenes/tema02/boruro.svg){style="display: block; margin: 0 auto; width: 15%"}
 
 Como veremos más adelante, el hecho de que el boro tenga orbitales atómicos vacíos va a dar propiedades ácidas al $\ce{BF3}$.
 
-35GEOMETRÍA DE LAS MOLÉCULAS. MÉTODO RPECV.
-Las siglas RPECV hacen referencia a “repulsiones entre los pares elec-
-trónicos de la capa de valencia”.
-El concepto básico en el que se apoya el método es que los pares elec-
-trónicos enlazantes y no enlazantes situados sobre el átomo central
-tenderán a colocarse en la posición que haga mínimas las repulsio-
-nes entre ellos (ver figura más abajo).
-Los enlaces múltiples se tratan, a efectos repulsivos, como si fueran un
-enlace sencillo.
-La existencia de pares no enlazantes sobre los átomos altera la geo-
-metría molecular, ya que su efecto repulsivo es mayor que el de los
-enlazantes.
-36MÉTODO RPECV
+**Geometría de las moléculas. Método RPECV.**
+
+Las siglas RPECV hacen referencia a “**repulsiones entre los pares electrónicos de la capa de valencia**”.
+
+El concepto básico en el que se apoya el método es que los **pares electrónicos enlazantes** y **no enlazantes** situados sobre el átomo central **tenderán a colocarse** en la posición que haga **mínimas las repulsiones entre ellos** (ver figura más abajo).
+
+Los **enlaces múltiples** se **tratan**, a efectos repulsivos, **como si fueran un enlace sencillo**.
+
+La existencia de **pares no enlazantes** sobre los átomos altera la geometría molecular, ya que su **efecto repulsivo es mayor** que el de los **enlazantes**.
+
+**MÉTODO RPECV**
+
 Estructuras que hacen mínimas las repulsiones entre pares de enlace:
-Izquierda: Dos pares. Estructura lineal. (180 ◦)
-Centro: Tres pares. Estructura triangular plana (120 ◦)
-Derecha: Cuatro pares. Estructura tetraédrica (109,5 ◦)
+
+Izquierda: Dos pares. Estructura lineal. (180$^{\circ}$)
+
+Centro: Tres pares. Estructura triangular plana (120$^{\circ}$)
+
+Derecha: Cuatro pares. Estructura tetraédrica (109,5$^{\circ}$)
+
+<!--
+##chemfig id=tipos_geometria sep=2em
+\begin{tikzpicture}[scale=1] 
+
+% Geometria lineal
+\node (C1) at (-7, 0.5) {}; 
+\node [label={[label distance=1cm]-90:\textbf{lineal}}] (O1) at (-6.5, 0.5) {} ; 
+\node (C2) at (-6, 0.5) {}; 
+\shade [ball color=blue!75] (C1) circle (0.15);  
+\shade [ball color=red!75] (O1) circle (0.15); 
+\shade [ball color=blue!75] (C2) circle (0.15);  
+\draw (C1) -- (O1) -- (C2);
+
+% Geometria triangular plana
+\node (C1) at (-3, 0.1) {}; 
+\node [label={[label distance=1cm]-90:\textbf{triangular plana}}] (O1) at (-2.5, 0.5) {}; 
+\node (C2) at (-2.5, 1.1) {}; 
+\node (C3) at (-2, 0.1) {}; 
+\shade [ball color=blue!75] (C1) circle (0.15);  
+\shade [ball color=red!75] (O1) circle (0.15); 
+\shade [ball color=blue!75] (C2) circle (0.15);  
+\shade [ball color=blue!75] (C3) circle (0.15); 
+\draw (C1) -- (O1) -- (C3);
+\draw (O1) -- (C2);
+
+% Geometria tetraedrica
+\node (C1) at (1, 0.1) {}; 
+\node [label={[label distance=1cm]-90:\textbf{tetráedrica}}] (O1) at (1.5, 0.5) {}; 
+\node (C2) at (1.5, 1.1) {}; 
+\node (C3) at (2, 0.3) {}; 
+\node (C4) at (1.8, -0.1) {};
+\shade [ball color=blue!75] (C1) circle (0.15);  
+\shade [ball color=red!75] (O1) circle (0.15); 
+\shade [ball color=blue!75] (C2) circle (0.15);  
+\shade [ball color=blue!75] (C3) circle (0.13); 
+\shade [ball color=blue!75] (C4) circle (0.15); 
+\draw (C1) -- (O1) -- (C3);
+\draw (O1) -- (C2);
+\draw (O1) -- (C4);
+
+\end{tikzpicture}
+-->
+
+![...](imagenes/tema02/tipos_geometria.svg){style="display: block; margin: 0 auto; width: 15%"}
+
 Otros:
+
 Cinco pares: Bipirámide trigonal (120 ◦ / 90 ◦)
+
 Seis pares: Octaédrica (90 ◦)
-lineal
-triangular plana
-tetráedrica
-37PASOS PARA ESTABLECER LA GEOMETRÍA
+
+
+**Pasoso para establecer la geometría**
+
 1. Obtener la estructura de Lewis para la molécula correspondiente.
-2. Considerar el número de átomos + pares no enlazantes situados sobre el
-átomo central (si existen enlaces múltiples, cuentan como un único par).
-1. Considerar, inicialmente, la estructura que minimiza las repulsiones entre
-pares.
-1. Considerar las posibles deformaciones que pueda originar en la estructura
-inicial las repulsiones debidas a pares no enlazantes, más fuertes que las de
-los pares enlazantes. La intensidad de repulsión entre pares decrece según:
-No enlazante - no enlazante (mayor repulsión)
-No enlazante - enlazante
-Enlazante - enlazante (menor repulsión)
-38EJEMPLO GEOMETRÍA (I)
+   
+2. Considerar el número de átomos + pares no enlazantes situados sobre el átomo central (si existen enlaces múltiples, cuentan como un único par).
+   
+3. Considerar, inicialmente, la estructura que minimiza las repulsiones entre pares.
+
+4. Considerar las posibles deformaciones que pueda originar en la estructura inicial las repulsiones debidas a pares no enlazantes, más fuertes que las de los pares enlazantes. La intensidad de repulsión entre pares decrece según:
+
+* No enlazante - no enlazante (mayor repulsión)
+* No enlazante - enlazante
+* Enlazante - enlazante (menor repulsión)
+
+EJEMPLO GEOMETRÍA
 Para la molécula C2 H4 deduzca la estructura de Lewis, nombre y dibuje su
 geometría molecular e indique los ángulos de enlace aproximados.
 Solución:
