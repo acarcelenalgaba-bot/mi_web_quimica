@@ -1,6 +1,6 @@
 # Tema 2: Enlace químico
 
-## 1. **Introducción**
+## **1. Introducción**
 
 La causa determinante de que los átomos traten de combinarse unos con otros es la tendencia de todos ellos a adquirir la configuración de gas noble ($\ce{ns np^6}$) en su capa más externa o “capa de valencia”.
 
@@ -14,7 +14,7 @@ El mínimo de energía se corresponderá, por tanto, con la agrupación más est
 
 ![Texto alternativo](imagenes/tema02/enlace.png){ style="display: block; margin: 0 auto; height: 450px; width: 100%;" }
 
-## 2. **Tipos de enlace químico**
+## **2. Tipos de enlace químico**
 
 **Enlace iónico**: Las **unidades estructurales básicas** enlazadas son iones de signo contrario (**aniones** y **cationes**). Los iones se mantienen unidos mediante fuerzas de naturaleza electrostática, debidas a la presencia de cargas de distinto signo.
 
@@ -76,7 +76,7 @@ El agua es sólida por debajo de 0 $^{\circ}$C a presión de 1 atm. Las uniones 
 
 ![Texto alternativo](imagenes/tema02/solido_molecular.png){ style="display: block; margin: 0 auto; height: 250px; width: 45%;" }
 
-## 3. **Enlace iónico**
+## **3. Enlace iónico**
 
 Si enfrentamos un átomo al que le falten pocos electrones en su capa de valencia para adquirir la configuración de gas noble (muy electronegativo, tendencia a coger electrones), tal como el cloro, con otro cuya electronegatividad sea baja (tendencia a ceder electrones), tal como el sodio, éste cederá un electrón al cloro.
 
@@ -182,7 +182,7 @@ En **estado sólido no conducen la electricidad**, ya que los iones están fuert
 
 **Fundidos o en disolución acuosa son buenos conductores de la corriente eléctrica** debido a la existencia de iones (átomos con carga) que se dirigen a los electrodos de polaridad contraria.
 
-## 4. **Enlace metálico**
+## **4. Enlace metálico**
 
 **ENLACE METÁLICO (MODELO DE GAS ELECTRÓNICO)**
 
@@ -239,7 +239,7 @@ En los metales tampoco se forman moléculas individuales. La situación es muy p
 - El característico **brillo metálico** es también una consecuencia de la existencia de electrones libres que pueden absorber y emitir luz de diversas frecuencias.
 
 
-## 5. **Enlace covalente**
+## **5. Enlace covalente**
 
 A diferencia de lo que pasa en un enlace iónico, en donde se produce la transferencia de electrones de un átomo a otro, en el enlace covalente, los electrones de enlace son compartidos por ambos átomos.
 
@@ -247,46 +247,42 @@ En el enlace covalente, los dos átomos no metálicos comparten uno o más elect
 
 Entre los dos átomos pueden compartirse uno, dos o tres pares de electrones, lo cual dará lugar a la formación de un enlace simple, doble o triple respectivamente.
 
-De esta manera alcanzan los ocho electrones en la última capa (2 en el caso del hidrógeno, pues así alcanza la configuración del He, $\ce{1 s^2}$.
+De esta manera alcanzan los ocho electrones en la última capa (2 en el caso del hidrógeno, pues así alcanza la configuración del He, $\ce{1 s^2}$).
 
-![Texto alternativo](imagenes/tema02/covalente.png){ style="display: block; margin: 0 auto; height: 200px; width: 55%;" }
+![Texto alternativo](imagenes/tema02/covalente.png){ style="display: block; margin: 0 auto; height: 200px; width: 90%;" }
 
 Los átomos se acercan hasta que los orbitales se solapan. Los electrones de ambos átomos se mueven ahora en una "zona común": **orbital molecular**.
 
-Es un enlace característico entre átomos de electronegatividad alta (no metales).
+Es un **enlace característico** entre **átomos de electronegatividad alta** (**no metales**).
 
-Cuando los átomos se unen mediante este tipo de enlace se forman unas nuevas entidades integradas por los átomos unidos: las moléculas.
+Cuando los átomos se unen mediante este tipo de enlace se forman unas nuevas entidades integradas por los átomos unidos: las **moléculas**.
 
-Las moléculas son las unidades básicas de los compuestos covalentes.
+Las **moléculas** son las **unidades básicas de los compuestos covalentes**.
+
+![Texto alternativo](imagenes/tema02/covalente2.png){ style="display: block; margin: 0 auto; height: 175px; width: 90%;" }
 
 **PROPIEDADES DE SUSTANCIAS COVALENTES MOLECULARES**
 
-Las unidades estructurales básicas son las moléculas.
-Suelen ser gases o líquidos. Si son sólidos presentarán puntos de fusión
-relativamente bajos ya que entre las moléculas existen unas fuerzas de atrac-
-ción bastante débiles.
-Tienen puntos de fusión y ebullición bajos.
-Suelen ser poco solubles en agua. (Aunque las sustancias muy polares sí
-lo son y además tienen mayores puntos de fusión y ebullición).
-Son malos conductores de la corriente eléctrica, incluso disueltos o
-fundidos (no hay cargas libres)
-25DIAGRAMAS DE LEWIS (I)
-Para representar las moléculas resultantes de la unión mediante enlace cova-
-lente se utilizan a menudo los diagramas de Lewis (derecha).
-En ellos se representan por puntos (o aspas) los electrones de la capa de
-valencia del átomo y los electrones compartidos se sitúan entre los átomos.
-De esta manera es fácil visualizar los electrones compartidos y cómo ambos
-átomos quedan con ocho electrones (estructura de gas noble), lo que se
-conoce como regla del octeto.
-H2 :
-H H
-O2 :
-O O
-Cl2 :
-Cl Cl
-H2 O:
-H O H
-26DIAGRAMAS DE LEWIS (II)
+Las **unidades estructurales** básicas son las **moléculas**.
+
+**Suelen ser gases o líquidos**. Si son sólidos presentarán puntos de fusión relativamente bajos ya que entre las moléculas existen unas fuerzas de atracción bastante débiles.
+
+Tienen **puntos de fusión y ebullición bajos**. Las sustancias covalentes moleculares están formadas por moléculas discretas e independientes, y en los cambios de estado (fusión/ebullición) solo se deben vencer las fuerzas intermoleculares, las cuales son uniones muy débiles y al ser fuerzas débiles, la energía térmica necesaria para separarlas es pequeña.
+
+**Suelen ser poco solubles en agua**. Las **sustancias covalentes apolares** son **insolubles** en agua porque las débiles fuerzas de dispersión que establecerían con el disolvente no pueden compensar la energía necesaria para romper los fuertes enlaces de hidrógeno que mantienen unidas a las moléculas de agua entre sí. Por el contrario, las **sustancias covalentes polares** (o capaces de formar puentes de hidrógeno) **sí** son **solubles** en agua, ya que las interacciones soluto-disolvente son energéticamente favorables.
+
+Son **malos conductores de la corriente eléctrica**, incluso disueltos o fundidos puesto que **no presentan cargas libres** (ni electrones deslocalizados ni iones) que puedan transportar la corriente. Los electrones de valencia están **localizados** en los enlaces covalentes interatómicos y las entidades estructurales son moléculas neutras..
+
+**Diagramas de Lewis**
+
+Para representar las moléculas resultantes de la unión mediante enlace covalente se utilizan a menudo los diagramas de Lewis (derecha).
+
+En ellos se representan por puntos (o aspas) los electrones de la capa de valencia del átomo y los electrones compartidos se sitúan entre los átomos.
+
+De esta manera es fácil visualizar los electrones compartidos y cómo ambos átomos quedan con **ocho electrones** (**estructura de gas noble**), lo que se conoce como **regla del octeto**.
+
+$\ce{H2}{:}$   $\chemfig{[,0.6] \charge{0=\.}{H} \hspace{0.7em} \charge{180=\.}{H} }$
+
 Para simplificar la escritura los electrones de enlace se representan por
 una raya que une ambos átomos. Los pares no enlazantes se repre-
 sentan por rayas situadas en el símbolo del elemento:
@@ -684,51 +680,50 @@ Además de todos los compuestos orgánicos en los que el carbono presenta
 un doble enlace (en ellos los orbitales p que no han hibridado se solapan
 lateralmente para dar el enlace π en el enlace doble), también presentan esta
 hibridación el aluminio en sus haluros, el azufre en el SO2 , etc.
-49HIBRIDACIÓN SP
-Se da con la combinación de un orbital s y otro p, para formar 2 orbitales hí-
-bridos, llamados sp, que se disponen linealmente, formando ángulos de 180 ◦.
-Los átomos que forman hibridaciones sp pueden formar compuestos con en-
-laces triples. Forman ángulos de 180 ◦ y sus moléculas son de forma lineal.
+
+HIBRIDACIÓN SP
+
+Se da con la combinación de un orbital s y otro p, para formar 2 orbitales híbridos, llamados sp, que se disponen linealmente, formando ángulos de 180 $^{\circ}$.
+
+Los átomos que forman hibridaciones sp pueden formar compuestos con enlaces triples. Forman ángulos de 180$^{\circ}$ y sus moléculas son de forma lineal.
+
 Los enlaces triples están compuestos por un enlace σ y dos enlaces π.
-En estos casos un electrón del orbital 2s se mezcla sólo con uno de los orbitales
-2p: surge al unirse el orbital s con un orbitales p; por consiguiente, se producen
-dos nuevos orbitales sp, y quedan dos orbitales p sin hibridar. Para el carbono:
-2 s1 2 px1 py1 pz1
-→
-(sp)1 (sp)1 py1 pz1
-50EJEMPLOS SP
-Además de todos los compuestos orgánicos en los que el carbono presenta
-un triple enlace enlace (en ellos los orbitales p que no han hibridado se
-solapan lateralmente para dar dos enlaces π en el triple enlace), también pre-
-senta esta hibridación el carbono en el CO2 y en todos los que como en esa
-molécula, hay dos dobles enlaces en el mismo carbono.
+
+En estos casos un electrón del orbital 2s se mezcla sólo con uno de los orbitales 2p: surge al unirse el orbital s con un orbitales p; por consiguiente, se producen dos nuevos orbitales sp, y quedan dos orbitales p sin hibridar. Para el carbono:
+
+2 s1 2 px1 py1 pz1 → (sp)1 (sp)1 py1 pz1
+
+EJEMPLOS SP
+
+Además de todos los compuestos orgánicos en los que el carbono presenta un triple enlace enlace (en ellos los orbitales p que no han hibridado se solapan lateralmente para dar dos enlaces π en el triple enlace), también presenta esta hibridación el carbono en el $\ce{CO2}$ y en todos los que como en esa molécula, hay dos dobles enlaces en el mismo carbono.
+
 También presentan esta hibridación los haluros del berilio.
-51RESUMEN HIBRIDACIÓN
-52EJEMPLO GEOMETRÍA (II)
-Anteriormente se vió el siguiente ejercicio:
-“Para la molécula C2 H4 deduzca la estructura de Lewis, nombre y dibuje su
-geometría molecular e indique los ángulos de enlace aproximados”
-En aquel momento se resolvió según la teoría de la repulsión de los pares
-electrónicos de valencia, pero se puede razonar igualmente por la teoría de los
-orbitales híbridos, como se acaba de ver.
+
+RESUMEN HIBRIDACIÓN
+
+EJEMPLO GEOMETRÍA (II)
+
+“Para la molécula $\ce{C2H4}$ deduzca la estructura de Lewis, nombre y dibuje su geometría molecular e indique los ángulos de enlace aproximados”
+
+En aquel momento se resolvió según la teoría de la repulsión de los pares electrónicos de valencia, pero se puede razonar igualmente por la teoría de los orbitales híbridos, como se acaba de ver.
+
 En realidad ambas explicaciones son válidas y llevan a los mismos resultados.
-Se recomienda en principio utilizar el método RPECV que parece más
-sencillo, a no ser que explícitamente se pida razonarlo a partir de la teoría de
-orbitales híbridos.
 
-## 6. **Fuerzas intermoleculares**
+Se recomienda en principio utilizar el método RPECV que parece más sencillo, a no ser que explícitamente se pida razonarlo a partir de la teoría de orbitales híbridos.
 
-En el mundo material, además de los enlaces entre átomos existen otras in-
-teracciones, más débiles, pero lo suficientemente intensas para que sus efectos
-sean notorios.
-Son las llamadas interacciones moleculares (ya que a menudo se dan entre
-moléculas) o interacciones de no enlace (término más general que incluye
-interacciones entre átomos neutros, cadenas de átomos o macromoléculas).
-Las interacciones de no enlace se suelen dividir tradicionalmente en dos gru-
-pos:
-Fuerzas de van der Waals
-Enlaces de hidrógeno
-54FUERZAS DE VAN DER WAALS (I)
+## **6. Fuerzas intermoleculares**
+
+En el mundo material, además de los enlaces entre átomos existen otras interacciones, más débiles, pero lo suficientemente intensas para que sus efectos sean notorios.
+
+Son las llamadas **interacciones moleculares** (ya que a menudo se dan entre moléculas) o **interacciones de no enlace** (término más general que incluye, interacciones entre átomos neutros, cadenas de átomos o macromoléculas).
+
+Las interacciones de no enlace se suelen dividir tradicionalmente en dos grupos:
+
+- **Fuerzas de van der Waals**
+- **Enlaces de hidrógeno**
+
+**FUERZAS DE VAN DER WAALS**
+
 La fuerzas de van der Waals son fuerzas de tipo
 electrostático (entre cargas de signo distinto).
 No es difícil de entender que existirán interacciones de
