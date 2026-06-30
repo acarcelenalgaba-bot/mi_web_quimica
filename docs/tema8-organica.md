@@ -109,7 +109,7 @@ Experimentalmente se comprueba que los seis enlaces son equivalentes, de ahí qu
 
 
 <!--
-##chemfig id=benceno sep=2em
+##latex id=benceno sep=2em
 \schemestart
 	\subscheme{
         \chemfig{[0,1.2]*6(=-=-=-)} 
@@ -134,7 +134,7 @@ Cuando el benceno actúa como radical de otra cadena se utiliza con el nombre de
 **Estructura de Ejemplo (Cadena con radicales fenilo)**:
 
 <!--
-##chemfig id=difenilo sep=2em
+##latex id=difenilo sep=2em
 \schemestart
 	\subscheme{
 		\chemfig{[:-30]*6(=-=(-CH_2-CH([:-270]-CH_3)-CH_2-CH([:-270]-CH_2-[:0]CH_3)-CH_2-CH_2-(*6(=-=-=-)))-=-)}
@@ -169,7 +169,7 @@ Cuando el alcohol no es la función principal, se nombra como **"hidroxi-"**, in
 Ejemplo: **4-metil-3-hidroxipentanal**:
   
 <!--
-##chemfig id=hidroxipentanal sep=2em
+##latex id=hidroxipentanal sep=2em
 	\chemfig{CH_3-CH(-[2]CH_3)-CH(-[6]OH)-CH_2-CHO}
 -->
 
@@ -269,7 +269,7 @@ $\ce{\hspace{0.5cm} CH3-CH2-COO-CH3}$
 Se pueden considerar derivados del amoníaco ($\ce{NH3}$) por sustitución de uno, dos o tres de sus hidrógenos por radicales alquilo o arilo, dando lugar a aminas **primarias** ($\ce{R-NH2}$), **secundarias** ($\ce{R-NH-R'}$) o **terciarias** ($\ce{R-N(R')-R''}$).
 
 <!--
-##chemfig id=aminas sep=2em
+##latex id=aminas sep=2em
 \schemestart
 	\subscheme{
         \chemfig{NH_3} 
@@ -377,7 +377,7 @@ Los compuestos presentan idéntica conectividad molecular pero difieren en la or
 * **Isomería Geométrica (cis/trans):** Propia de compuestos con doble enlace rígido $\ce{C=C}$. El isómero *cis* posee los sustituyentes principales al mismo lado, mientras que el *trans* los posee en lados opuestos.
 
 <!--
-##chemfig id=cis sep=2em
+##latex id=cis sep=2em
 \schemestart
     \subscheme{
         \chemname{\chemfig{C(-[3]CH_3)(-[5]H)=C(-[1]CH_3)(-[7]H)}}{cis-but-2-eno} \hspace{2cm}
@@ -391,7 +391,7 @@ Los compuestos presentan idéntica conectividad molecular pero difieren en la or
 * **Isomería Óptica:** Ocurre ante la presencia de un carbono asimétrico o quiral (unido a 4 sustituyentes distintos). Da lugar a enantiómeros, imágenes especulares no superponibles que desvían la luz polarizada hacia la derecha (dextrógiro) o hacia la izquierda (levógiro).
 
 <!--
-##chemfig id=optica sep=2em
+##latex id=optica sep=2em
 \schemestart
     \subscheme{
         \chemname{\chemfig{CH_3-CH_2-C(-[6]Cl)(-[2]OH)-CH_3}}{2-clorobutan-2-ol}  \hspace{2cm}
@@ -465,7 +465,7 @@ Son típicas del benceno y los compuestos aromáticos. En ellas un hidrógeno de
 Ejemplos:
 
 <!--
-##chemfig id=bromobenceno sep=2em
+##latex id=bromobenceno sep=2em
 \schemestart
     \subscheme{
         \chemname{\chemfig{*6(=-=-=-)}}{benceno} \; + \; \chemfig{Br_2} \;
@@ -478,7 +478,7 @@ Ejemplos:
 ![...](imagenes/tema08/bromobenceno.svg){style="display: block; margin: 0 auto; width: 50%;"}
 
 <!--
-##chemfig id=nitrobenceno sep=2em
+##latex id=nitrobenceno sep=2em
 \schemestart
     \subscheme{
         \chemname{\chemfig{*6(=-=-=-)}}{benceno} \; + \; \chemfig{HNO_3} \;
@@ -507,7 +507,7 @@ $\ce{CH3-CH=CH2 + Cl2 \; \rightarrow \; CH3-CHCl-CH2-Cl + HCl}$
 Sin embargo, cuando el **reactivo es asimétrico** podemos obtener dos isómeros, por ejemplo, con el mismo propeno, si reacciona con ácido bromhídrico podemos obtener el 2-bromopropano o el 1-bromopropano.
 
 <!--
-##chemfig id=propeno sep=2em
+##latex id=propeno sep=2em
 \schemestart[0, 0.8, 1.5]
     \chemname{\chemfig{CH_3-CH=CH_2}}{propeno} 
     \arrow{0}[,0.7] + \arrow{0}[,0.7]
@@ -527,7 +527,7 @@ Sin embargo, cuando el **reactivo es asimétrico** podemos obtener dos isómeros
 * **Ejemplo (Hidratación de alquenos):**
 
 <!--
-##chemfig id=metilpropanol sep=2em
+##latex id=metilpropanol sep=2em
 \schemestart[0, 0.8, 1.5]
     \chemname{\chemfig{CH_3-C(-[2]CH_3)=CH_2}}{metilpropeno} 
     \arrow{0}[,0.7] + \arrow{0}[,0.7]
@@ -551,7 +551,7 @@ Se pueden considerar inversas a las de adición, ya que se eliminan el mismo tip
 * **Ejemplo (Deshidratación de alcoholes):**
 
 <!--
-##chemfig id=butanol sep=2em
+##latex id=butanol sep=2em
 \schemestart[0, 0.8, 1.5]
     \chemname{\chemfig{CH_3-CH_2-CH(-[2]OH)-CH_3}}{butan-2-ol} 
     \arrow{0}[,0.2] + \arrow{0}[,0.2]
@@ -591,7 +591,7 @@ Los dos ejemplos más importantes son la **formación de ésteres** a partir de 
 Ejemplo de esterificación:
 
 <!--
-##chemfig id=esterificacion sep=2em
+##latex id=esterificacion sep=2em
 \schemestart[0, 0.8, 1.5]
     \chemname{\chemfig{CH_3-C(=[2]O)-OH}}{ácido etanoico} 
     \arrow{0}[,0.2] + \arrow{0}[,0.2]

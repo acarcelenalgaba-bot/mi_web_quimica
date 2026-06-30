@@ -20,7 +20,7 @@ compilar_fichero() {
     echo "🔄 Procesando archivo $FICHERO en busca de moléculas y esquemas..."
 
     # Buscar todas las líneas que abren un bloque chemfig
-    grep -n '^##chemfig' "$FICHERO" | while read -r linea; do
+    grep -n '^##latex' "$FICHERO" | while read -r linea; do
         num_linea=$(echo "$linea" | cut -d: -f1)
         contenido_linea=$(echo "$linea" | cut -d: -f2-)
 
@@ -31,23 +31,20 @@ compilar_fichero() {
         if [ -z "$ID" ]; then ID="molecula_$num_linea"; fi
         if [ -z "$TAMANO" ]; then TAMANO="3em"; fi
 
-        # EXTRAER CÓDIGO (Ultra-robusto contra CRLF/Windows)
-        CODIGO_MOLECULA=$(tail -n +$((num_linea+1)) "$FICHERO" | tr -d '\r' | sed -n '1,/^```/p' | grep -v '^```' | grep -v '^#|' | tr '\n' ' ' | sed 's/  */ /g;s/^ //;s/ $//')
+        # EXTRAER CÓDIGO (Corregido para detenerse en el cierre de comentario de HTML '-->')
+        CODIGO_MOLECULA=$(tail -n +$((num_linea+1)) "$FICHERO" | tr -d '\r' | sed -n '1,/^-->/p' | grep -v '^-->' | grep -v '^#|' | tr '\n' ' ' | sed 's/  */ /g;s/^ //;s/ $//')
 
         if [ ! -z "$CODIGO_MOLECULA" ]; then
             
-            if echo "$CODIGO_MOLECULA" | grep -q -E '\\schemestart|\\chemfig'; then
-                CONTENIDO_FINAL="$CODIGO_MOLECULA"
-            else
-                CONTENIDO_FINAL="\\chemfig{$CODIGO_MOLECULA}"
-            fi
+            CONTENIDO_FINAL="$CODIGO_MOLECULA"
 
             # Generar el archivo temporal de LaTeX
-            cat << TEX > temp_chem.tex
+            cat << TEX > temp_chem_$ID.tex
 \documentclass[tikz,border=2mm]{standalone}
 \usepackage{chemfig}
 \usepackage{chemmacros}
 \usetikzlibrary{shapes,snakes}
+\usepackage{xcolor}
 \setchemfig{atom sep=$TAMANO}
 \begin{document}
 $CONTENIDO_FINAL
@@ -55,10 +52,10 @@ $CONTENIDO_FINAL
 TEX
             
             # Compilar
-            pdflatex -interaction=nonstopmode temp_chem.tex > temp_compile.log 2>&1
+            pdflatex -interaction=nonstopmode temp_chem_$ID.tex > temp_compile.log 2>&1
             
-            if [ -f temp_chem.pdf ]; then
-                pdf2svg temp_chem.pdf "$CARPETA_DESTINO/$ID.svg" 2>/dev/null
+            if [ -f temp_chem_$ID.pdf ]; then
+                pdf2svg temp_chem_$ID.pdf "$CARPETA_DESTINO/$ID.svg" 2>/dev/null
                 echo "✅ Generada con éxito: $CARPETA_DESTINO/$ID.svg (Tamaño: $TAMANO)"
                 rm -f "$CARPETA_DESTINO/${ID}_error.log"
             else

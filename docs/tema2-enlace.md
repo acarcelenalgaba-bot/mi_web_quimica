@@ -282,7 +282,7 @@ En ellos se representan por puntos (o aspas) los electrones de la capa de valenc
 De esta manera es fácil visualizar los electrones compartidos y cómo ambos átomos quedan con **ocho electrones** (**estructura de gas noble**), lo que se conoce como **regla del octeto**.
 
 <!--
-##chemfig id=cov1 sep=2em
+##latex id=cov1 sep=2em
 \schemestart[0, 0.8, 1.5]
     \chemfig{H_2}{:}
     \arrow{0}[,0.1]
@@ -321,7 +321,7 @@ Aunque teóricamente el enlace dativo se distinga del enlace covalente ordinario
 Dos de los ejemplos más importantes son, el ion amonio ($\ce{NH4^+}$) y el ion oxonio ($\ce{H3O^+}$):
 
 <!--
-##chemfig id=enlace_dativo sep=2em
+##latex id=enlace_dativo sep=2em
 \schemestart[0, 0.8, 1.5]
 	\subscheme{
 		\chemfig{[,1] \charge{0=\:}{N}(-[:180]H)(-[:-90]H)(-[:90]H)} \hspace{0.2em} + \hspace{0.2em} \chemfig{H^+} $\Longrightarrow$ $\left[ \chemfig{[,1] N(-[:180]H)(-[:-90]H)(-[:90]H)} \hspace{0.1em} \rightarrow \hspace{0.1em} \chemfig{H^+} \right]$ \chemabove[20pt]{}{\hspace{.1cm}{+}} 
@@ -345,7 +345,7 @@ Dos de los ejemplos más importantes son, el ion amonio ($\ce{NH4^+}$) y el ion 
 La **resonancia** (denominada también **mesomería**) es una herramienta empleada para representar ciertos tipos de estructuras moleculares. La resonancia **consiste en la combinación lineal de estructuras teóricas de una molécula** (estructuras resonantes o en resonancia) que no coinciden con la estructura real, pero que mediante su combinación, nos acerca más a su estructura real. El benceno es un ejemplo clásico:
 
 <!--
-##chemfig id=resonancia_benceno sep=2em
+##latex id=resonancia_benceno sep=2em
 \schemestart[0, 0.8, 1.5]
 	\subscheme{
 		\chemfig{C*6((-H)=C(-H)-C(-H)=C(-H)-C(-H)=C(-H)-)} 
@@ -366,7 +366,7 @@ Por eso ninguna de las dos fórmulas de Lewis responde bien a su estructura real
 **Otros ejemplos de resonancia**
 
 <!--
-##chemfig id=resonancia2 sep=2em
+##latex id=resonancia2 sep=2em
 \schemestart
 \chemname[2em]{ \chemfig{[,1] \charge{135=\|,315=\|}{O}=[:30]\charge{90=\|}{S}-[::-60]\charge{45=\|,225=\|,315=\|}{O}} \hspace{1cm} $\longleftrightarrow$ \hspace{1cm}
 \chemfig{[,1] \charge{135=\|,225=\|,315=\|}{O}-[:30]\charge{90=\|}{S}=[::-60]\charge{45=\|,225=\|}{O}} }{Dioxido de azufre}  \hspace{3cm}
@@ -379,7 +379,7 @@ Por eso ninguna de las dos fórmulas de Lewis responde bien a su estructura real
 ![...](imagenes/tema02/resonancia2.svg){style="display: block; margin: 0 auto; width: 90%"}
 
 <!--
-##chemfig id=nitrato sep=2em
+##latex id=nitrato sep=2em
 \schemestart
 \chemleft[\hspace{0.5em}\chemfig{[,1] \charge{135=\:,225=\:,315=\:}{O}-[:30]N(=[:90]\charge{45=\:,135=\:}{O})(-[:-30]\charge{45=\:,225=\:,315=\:}{O})}\hspace{0.5em} \chemright]\chemabove[33pt]{}{\hspace{.4cm}{-}}
 \hspace{0.5em} \arrow{<->}[0,0.7] \hspace{0.5em}
@@ -427,7 +427,7 @@ Electrones compartidos: EC = ET - EV = 36 - 24 = 12 (seis pares)
 Electrones sin compartir: 24 - 12 = 12 (seis pares). Así que:
 
 <!--
-##chemfig id=carbonico sep=2em
+##latex id=carbonico sep=2em
 \chemfig{[,1] H-\charge{90=\|,270=\|}{O}-C(=[2]\charge{45=\|,135=\|}{O})-\charge{90=\|,270=\|}{O}-H}
 -->
 
@@ -444,7 +444,7 @@ La razón es que estos elementos poseen orbitales 3d vacíos, cuya energía no e
 Otros **elementos de número atómico bajo**, que también forman enlaces covalentes, al contrario que los anteriores, forman un “**octeto incompleto**”, sin llegar a tener los ocho electrones en la última capa. Es el caso del Be, B, Al.
 
 <!--
-##chemfig id=boruro sep=2em
+##latex id=boruro sep=2em
 \chemfig{[,1] \charge{135=\|,225=\|,315=\|}{F}-[:30]B(-[:90]\charge{0=\|,90=\|,180=\|}{F})(-[:-30]\charge{45=\|,225=\|,315=\|}{F})} 
 -->
 
@@ -682,7 +682,7 @@ Para la molécula $\ce{C2H4}$ deduzca la estructura de Lewis, nombre y dibuje su
 **Diagrama de Lewis:**
 
 <!--
-##chemfig id=lewis_eteno sep=2em
+##latex id=lewis_eteno sep=2em
 \chemfig{
     \charge{135=\:, 225=\:, 0=\:}{C}
     (-[:135,0.7,,,draw=none]H)
@@ -701,7 +701,7 @@ un solo par**) que se repelerán con la misma intensidad. Presentarán, por tant
 una estructura triangular plana con ángulos de 120$^{\circ}$.
 
 <!--
-##chemfig id=geometria_eteno sep=2em
+##latex id=geometria_eteno sep=2em
 \chemfig{[,1] H-[:-60]C(-[:-120]H)=C(-[:-60]H)-[:60]H} 
 -->
 
@@ -711,9 +711,9 @@ una estructura triangular plana con ángulos de 120$^{\circ}$.
 
 En física se llama **dipolo eléctrico** a un sistema de dos cargas de signo opuesto e igual magnitud cercanas entre sí.
 
-Se define el **momento dipolar eléctrico** como una magnitud vectorial con módulo igual al producto de la carga q por la distancia que las separa d, cuya dirección va de la carga negativa a la positiva:
+Se define el **momento dipolar eléctrico** como una magnitud vectorial con módulo igual al producto de la carga q por la distancia que las separa d, cuya dirección va de la carga negativa a la positiva que mide la polaridad de un enlace químico en una molécula:
 
-$\ce{\vec{p} = q \cdot \vec{d}}$
+$\ce{\vec{\mu} = q \cdot \vec{d}}$
 { style="border: 2px solid #34077d; border-radius: 12px; padding: 15px; text-align: center; max-width: 150px; margin: 20px auto; display: block; background: #f9f7fb" }
 
 Teóricamente en un enlace covalente los pares de electrones deberían compartirse por igual (digamos a un 50 %). Sin embargo esto solo es cierto cuando los elementos que se enlazan son exactamente iguales o de electronegatividad muy parecida. En caso contrario, el **elemento más electronegativo** “**tira” más del par de enlace** “quedándose con más electrones”.
@@ -740,9 +740,9 @@ Si consideramos las uniones del cloro con todos los elementos de su mismo perío
 
 Puesto que el momento dipolar es una magnitud vectorial, la suma de varios momentos dipolares puede ser cero. Esto implica que una molécula puede tener enlaces polares pero en conjunto ser apolar al anularse los respectivos momentos dipolares en función de su geometría:
 
-**Molécula de $\ce{CO2}$**. Aunque los dos enlaces CO son polares, la molécula, en conjunto, es **apolar**, ya que el momento dipolar total resultante es nulo.
+**Molécula de $\ce{CO2}$**. Aunque los dos enlaces CO son polares, la molécula, en conjunto, es **apolar**, ya que el **momento dipolar total** resultante es **nulo**.
 
-**Molécula de $\ce{H2O}$**. Los momentos dipolares de los dos enlaces H-O se suman para dar un momento dipolar total no nulo. La molécula es **polar**.
+**Molécula de $\ce{H2O}$**. Los momentos dipolares de los dos enlaces H-O se suman para dar un **momento dipolar total no nulo**. La molécula es **polar**.
 
 ![...](imagenes/tema02/polaridad1.png){style="display: block; margin: 0 auto; width: 70%"}
 
@@ -757,11 +757,17 @@ Así se explican las valencias anómalas de algunos átomos por desapareamiento 
 Ejemplo de los estados de oxidación del cloro:
 
 <!--
-##chemfig id=eo_cloro sep=2em
+##latex id=eo_cloro sep=2em
 \begin{center} \textbf{Cloro} \; con \; valencia \; \textcolor{red}{1} \; \electron{[Ar]}{} \; \electron{\ce{3s^2}}{\updwn}\quad \electron{\ce{3p^5}}{\updwn\updwn\up} \quad \electron{\ce{3d^0}}{\emp\emp\emp\emp\emp} \end{center}
+
+\begin{center} \textbf{Cloro} \; con \; valencia \; \textcolor{red}{3} \; \electron{[Ar]}{} \; \electron{\ce{3s^2}}{\updwn}\quad \electron{\ce{3p^4}}{\updwn\up\up} \quad \electron{\ce{3d^1}}{\up\emp\emp\emp\emp} \end{center}
+
+\begin{center} \textbf{Cloro} \; con \; valencia \; \textcolor{red}{5} \; \electron{[Ar]}{} \; \electron{\ce{3s^2}}{\updwn}\quad \electron{\ce{3p^3}}{\up\up\up} \quad \electron{\ce{3d^2}}{\up\up\emp\emp\emp} \end{center}
+
+\begin{center} \textbf{Cloro} \; con \; valencia \; \textcolor{red}{7} \; \electron{[Ar]}{} \; \electron{\ce{3s^1}}{\up}\quad \electron{\ce{3p^3}}{\up\up\up} \quad \electron{\ce{3d^3}}{\up\up\up\emp\emp} \end{center}
 -->
 
-![...](imagenes/tema02/eo_cloro.svg){style="display: block; margin: 0 auto; width: 15%"}
+![...](imagenes/tema02/eo_cloro.svg){style="display: block; margin: 0 auto; width: 100%"}
 
 **Enlaces $\sigma$ (Sigma) y $\pi$ (pi)**
 
