@@ -43,6 +43,7 @@ compilar_fichero() {
 \documentclass[tikz,border=2mm]{standalone}
 \usepackage{chemfig}
 \usepackage{chemmacros}
+\chemsetup{modules={orbital}}
 \usetikzlibrary{shapes,snakes}
 \usepackage{xcolor}
 \setchemfig{atom sep=$TAMANO}
