@@ -862,23 +862,28 @@ Si los orbitales que se solapan son los más sencillos, tipos s y p, se pueden c
 
 **Enlaces $\sigma$**: se forman por solapamiento (acercamiento y superposición), de orbitales s con s, s con p y p con p (frontal, sobre el mismo eje).
 
+![...](imagenes/tema02/enlace_sigma.png){style="display: block; margin: 0 auto; width: 40%; border: 1px solid #333;"}
+
 **Enlaces $\pi$**: se forman por solapamiento lateral, es decir, sobre ejes paralelos, de orbitales p.
+
+![...](imagenes/tema02/enlace_pi.png){style="display: block; margin: 0 auto; width: 40%; border: 1px solid #333;"}
 
 **Hibridación de orbitales atómicos**
 
-La teoría de hibridación de orbitales atómicos fue propuesta en 1931 por L. Pauling como una modificación de la TEV, para hacer frente a disparidades halladas en el cálculo teórico de parámetros moleculares (distancias de enlace, ángulos de enlace,...) al aplicar la TEV con los valores obtenidos experimentalmente para los mismos parámetros.
+La **teoría de hibridación de orbitales atómicos** fue propuesta en 1931 por L. Pauling como una modificación de la TEV, para hacer frente a disparidades halladas en el cálculo teórico de parámetros moleculares (distancias de enlace, ángulos de enlace,...) al aplicar la TEV con los valores obtenidos experimentalmente para los mismos parámetros.
 
-Una de las moléculas que manifiesta esta discrepancia es la de metano.
+Una de las moléculas que manifiesta esta discrepancia es la de **metano ($\ce{CH4}$)**.
 
-La configuración del C es 1 s2 2 s2 2 p2 , por lo que puede formar cuatro enlaces covalentes promocionando un electrón del orbital 2s al orbital 2p vacío y así tener 4 electrones desapareados:
+La configuración del C es $\ce{1s^2 2s^2 2p^2}$, por lo que puede formar cuatro enlaces covalentes promocionando un electrón del orbital 2s al orbital 2p vacío y así tener 4 electrones desapareados:
 
-C: 2 s2 2 px1 py1 pz0 → 2 s1 2 px1 py1 pz1 ;
+$\ce{\hspace{4cm} C{:} \; 2s^2 2p_x^1 2p_y^1 2p_z^0 \; \rightarrow \; 2s^1 2p_x^1 2p_y^1 2p_z^1}$
 
-H: 1 s1
+$\ce{\hspace{4cm} H{:} \; 1s^1}$
 
 El problema es que según la geometría de los orbitales s y p, los cuatro enlaces σ del metano no serían iguales: el que se formara por solapamiento del orbital 2s del C con el 1s del H sería diferente de los otros tres, formados por solapamiento de los 2p del C son el 1s del H.
 
 **Hibridación $\ce{sp^3}$**
+
 La explicación dada por Pauling consiste en admitir la formación de cuatro orbitales atómicos híbridos equivalentes a partir del orbital 2s y los tres orbitales p del carbono, llamados $\ce{sp3}$, conteniendo cada uno de ellos un electrón desapareado.
 
 En esta hibridación los orbitales forman ángulos de 109,5$^{\circ}$.
