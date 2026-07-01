@@ -1,0 +1,56 @@
+:root {
+  /* Amplía el ancho de la rejilla principal al máximo */
+  --md-grid-width: 100%; 
+}
+
+/* Fuerza al contenedor principal a usar todo el espacio */
+.md-main__inner {
+  max-width: 100%;
+}
+
+/* Quita el límite de ancho al bloque donde escribes la teoría y las tablas */
+.md-content {
+  max-width: 100% !important;
+}
+
+/* Opcional: Si quieres que las tablas ocupen también el 100% del nuevo ancho */
+.md-content table {
+  display: table;
+  width: 100%;
+}
+
+/* Cambiar el fondo y el texto de la cabecera de las tablas */
+.md-typeset table thead tr {
+    background-color: #f4f5f5; /* Sustituye por el color hexadecimal que quieras (este es un tono teal) */
+}
+
+.md-typeset table thead tr th {
+    color: #0f0e0e; /* Color del texto de la cabecera (Blanco) */
+    font-weight: bold;
+}
+
+@media print {
+    /* Evita que el contenido se oculte o colapse en una sola página */
+    .md-content, 
+    .md-content__inner, 
+    article, 
+    body, 
+    html {
+        overflow: visible !important;
+        height: auto !important;
+        max-height: none !important;
+        display: block !important;
+    }
+
+    /* Evita saltos de página huérfanos dentro de los temas */
+    h1, h2, h3 {
+        page-break-after: avoid;
+    }
+}
+
+/* Centrar de forma automática todas las imágenes del documento */
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
