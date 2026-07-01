@@ -1029,17 +1029,21 @@ Las interacciones de no enlace se suelen dividir tradicionalmente en dos grupos:
 
 **FUERZAS DE VAN DER WAALS**
 
-La fuerzas de van der Waals son fuerzas de tipo electrostático (entre cargas de signo distinto). No es difícil de entender que existirán interacciones de este tipo entre las moléculas polares (HCl, por ejemplo).
+La **fuerzas de van der Waals** son fuerzas de **tipo electrostático** (entre **cargas de signo distinto**). No es difícil de entender que existirán interacciones de este tipo entre las **moléculas polares** (HCl, por ejemplo).
+
+![...](imagenes/tema02/keeson.png){style="display: block; margin: 0 auto; width: 35%"}
 
 Son las llamadas **interacciones dipolo-dipolo** (fuerzas de Keeson).
 
-Sin embargo existen fuerzas de van der Waals, incluso cuando las moléculas no son polares.
+Sin embargo **existen fuerzas de van der Waals**, incluso cuando las **moléculas son apolares**.
 
-Unas veces estas interacciones se deben a que las moléculas polares inducen dipolos en las no polares, estableciéndose interacciones dipolo-dipolo inducido (fuerzas de Debye). 
+Unas veces estas interacciones se deben a que las **moléculas polares inducen dipolos** en las no polares, estableciéndose **interacciones dipolo-dipolo inducido** (fuerzas de Debye). 
 
-Estas interacciones son las que ocurren, por ejemplo, en una mezcla de HCl (polar) y $\ce{CH4}$ (no polar).
+Estas interacciones son las que ocurren, por ejemplo, en una mezcla de $\ce{HCl}$ (polar) y $\ce{CH4}$ (no polar).
 
-Aún si no existen dipolos permanentes pueden existir fuerzas de van der Waals debido a la aparición de dipolos instantáneos.
+![...](imagenes/tema02/debye.png){style="display: block; margin: 0 auto; width: 70%"}
+
+Aún **si no existen dipolos permanentes** pueden existir fuerzas de van der Waals debido a la aparición de **dipolos instantáneos**.
 
 La formación de dipolos instantáneos en moléculas no polares es un efecto cuántico.
 
@@ -1047,24 +1051,28 @@ Recordemos que los electrones se sitúan alrededor de los núcleos formando una 
 
 Se forman **dipolos instantáneos**.
 
-Estos dipolos pueden provocar la aparición de dipolos inducidos en moléculas próximas provocando una interacción entre dipolos instantáneos y dipolos inducidos (**fuerzas de London**)
+Estos dipolos pueden provocar la aparición de dipolos inducidos en moléculas próximas provocando una interacción entre **dipolos instantáneos y dipolos inducidos** (**fuerzas de London**)
 
-Las fuerzas de van der Waals son de corto alcance (disminuyen rápidamente al aumentar la distancia) y la interacción se produce a una distancia de equilibrio en la que la atracción entre dipolos iguala a la fuerza de repulsión entre las nubes de electrones.
+![...](imagenes/tema02/london.png){style="display: block; margin: 0 auto; width: 70%"}
 
-Las interacciones de van der Waals son importantes cuando los átomos son grandes, debido a que son más fácilmente polarizables.
+Las fuerzas de Van der Waals son de corto alcance (disminuyen rápidamente al aumentar la distancia) y la interacción se produce a una distancia de equilibrio en la que la atracción entre dipolos iguala a la fuerza de repulsión entre las nubes de electrones.
+
+Las interacciones de Van der Waals son importantes cuando los átomos son grandes (mayor masa atómica), debido a que son más fácilmente polarizables.
 
 El enlace covalente es, aproximadamente, 5000 veces más estable que una interacción de Van der Waals.
 
 Algunos ejemplos interesantes:
 
-- Las interacciones entre los planos del grafito son fuerzas de van der Waals.
+- Las interacciones entre los planos del grafito son fuerzas de Van der Waals.
 
-- El yodo es una sustancia sólida a temperatura ambiente debido a interacciones de van der Waals. Las interacciones entre las moléculas de $\ce{I2}$ son del tipo dipolo instantáneo-dipolo inducido. El gran tamaño de los átomos de yodo facilita la polarización de las moléculas.
+- El yodo es una sustancia sólida a temperatura ambiente debido a interacciones de Van der Waals. Las interacciones entre las moléculas de $\ce{I2}$ son del tipo dipolo instantáneo-dipolo inducido. El gran **tamaño de los átomos de yodo** facilita la polarización de las moléculas.
 
 **ENLACE DE HIDRÓGENO**
 
-Aunque el llamado “enlace de hidrógeno” no llega a la categoría de enlace (es veinte veces más débil que un enlace covalente), y se estudia como un tipo de interacción entre las moléculas, es de gran importancia ya que juega un papel muy importante en química y biología.
+Aunque el llamado “**enlace de hidrógeno**” no llega a la categoría de enlace (es **veinte veces más débil que un enlace covalente**), y se estudia como un **tipo de interacción** entre las **moléculas**, es de gran importancia ya que juega un papel muy importante en química y biología.
 
-El enlace de hidrógeno es una interacción entre moléculas debida a la polaridad de los enlaces covalentes y se da entre el átomo de hidrógeno, cargado positivamente, y un átomo electronegativo pequeño como el oxígeno, nitrógeno o flúor.
+El **enlace de hidrógeno es una interacción entre moléculas debida a la polaridad de los enlaces covalentes** y se da entre el **átomo de hidrógeno**, cargado positivamente, **y un átomo electronegativo pequeño como el oxígeno, nitrógeno o flúor**.
 
 El átomo de oxígeno de una molécula de agua tiene una carga parcial negativa que es atraída por la carga parcial positiva del hidrógeno de una molécula vecina. De esta manera ambas moléculas quedan “unidas” mediante el átomo de hidrógeno que hace de “puente” entre ambas.
+
+![...](imagenes/tema02/enlace_hidrogeno.png){style="display: block; margin: 0 auto; width: 70%"}
