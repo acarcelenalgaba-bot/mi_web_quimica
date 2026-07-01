@@ -969,11 +969,11 @@ Carbono ($\ce{C}$): Grupo 14 $\rightarrow 4 \text{ e}^- \cdot 2 = 8 \text{ e}^-$
 
 Hidrógeno ($\ce{H}$): Grupo 1 $\rightarrow 1 \text{ e}^- \cdot 4 = 4 \text{ e}^-$
 
-Total de electrones de valencia = 12.
+Electrones de valencia $\ce{(EV) = 12}$.
 
-Electrones totales = $\ce{8 \cdot 2 + 2 \cdot 2 = 20}$.
+Electrones totales $\ce{(ET) = 8 \cdot 2 + 2 \cdot 4 = 24}$.
 
-Cantidad de enlaces que se formaran: $\ce{ET - EV = 20 - 12 = 8 (4 enlaces posibles)}$
+Cantidad de enlaces que se formaran: $\ce{ET - EV = 24 - 12 = 12}$ ($\ce{6 pares, 6 enlaces posibles}$)
 
 Los dos átomos de carbono se enlazan entre sí y los cuatro hidrógenos se distribuyen equitativamente (dos en cada carbono). Tras formar los enlaces simples iniciales ($\ce{C-C}$ y cuatro $\ce{C-H}$), gastamos 5 pares (10 electrones). El par restante se coloca como un doble enlace entre los dos carbonos para que ambos completen su octeto.
 
