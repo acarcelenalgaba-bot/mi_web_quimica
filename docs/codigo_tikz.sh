@@ -30,16 +30,14 @@ compilar_fichero() {
         if [ -z "$ID" ]; then ID="tikz_$num_linea"; fi
 
         # EXTRAER CÓDIGO (Preservando saltos de línea para evitar problemas con comentarios '%')
-        CODIGO_BLOQUE=$(tail -n +$((num_linea+1)) "$FICHERO" | tr -d '\r' | sed -n '1,/^```/p' | grep -v '^```' | grep -v '^#|')
+        CODIGO_BLOQUE=$(tail -n +$((num_linea+1)) "$FICHERO" | tr -d '\r' | sed -n '1,/^-->/p' | grep -v '^-->' | grep -v '^#|')
+        
+        #CODIGO_BLOQUE=$(tail -n +$((num_linea+1)) "$FICHERO" | tr -d '\r' | sed -n '1,/^-->/p' | grep -v '^-->' | grep -v '^#|' | tr '\n' ' ' | sed 's/  */ /g;s/^ //;s/ $//')
+
 
         if [ ! -z "$CODIGO_BLOQUE" ]; then
             
-            # Comprobar si el código ya incluye el entorno tikzpicture
-            if echo "$CODIGO_BLOQUE" | grep -q '\\begin{tikzpicture}'; then
-                CONTENIDO_FINAL="$CODIGO_BLOQUE"
-            else
-                CONTENIDO_FINAL=$"\\begin{tikzpicture}\n$CODIGO_BLOQUE\n\\end{tikzpicture}"
-            fi
+            CONTENIDO_FINAL="$CODIGO_BLOQUE"
 
             # Generar el archivo temporal de LaTeX incluyendo librerías críticas de texturas y formas
             cat << TEX > temp_tikz_$ID.tex
@@ -48,6 +46,8 @@ compilar_fichero() {
 \usepackage{tikz}
 \usepackage{tikzorbital}
 \usepackage{tikz-3dplot}
+\usepackage{chemfig}
+\setchemfig{remember picture}
 \begin{document}
 $CONTENIDO_FINAL
 \end{document}

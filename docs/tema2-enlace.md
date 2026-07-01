@@ -454,7 +454,7 @@ Como veremos más adelante, el hecho de que el boro tenga orbitales atómicos va
 
 **Geometría de las moléculas. Método RPECV.**
 
-Las siglas RPECV hacen referencia a “**repulsiones entre los pares electrónicos de la capa de valencia**”.
+Las siglas **RPECV** hacen referencia a “**repulsiones entre los pares electrónicos de la capa de valencia**”.
 
 El concepto básico en el que se apoya el método es que los **pares electrónicos enlazantes** y **no enlazantes** situados sobre el átomo central **tenderán a colocarse** en la posición que haga **mínimas las repulsiones entre ellos** (ver figura más abajo).
 
@@ -548,7 +548,7 @@ Estructuras que hacen mínimas las repulsiones entre pares de enlace:
 \end{tikzpicture}
 -->
 
-![...](imagenes/tema02/tipos_geometria.svg){style="display: block; margin: 0 auto; width: 80%"}
+![...](imagenes/tema02/tipos_geometria.svg){style="display: block; margin: 0 auto; width: 65%"}
 
 Otros:
 
@@ -564,11 +564,12 @@ Otros:
 % 1. GEOMETRÍA BIPIRÁMIDE TRIGONAL (Centro en X=5)
 % =========================================================================
 \node (O1) at (5, 0.5) {}; 
-\node [label={[font=\bfseries, label distance=0.8cm]-90:bipirámide trigonal}] at (5, 4.5) {}; 
+% CORREGIDO: Nodo directo. No genera espacio extra arriba.
+\node [font=\bfseries] at (5, 2.6) {bipirámide trigonal};
 
 % Átomos axiales
-\node (C1) at (5, 2.3) {}; 
-\node (C2) at (5, -1.3) {}; 
+\node (C1) at (5, 2) {}; 
+\node (C2) at (5, -1) {}; 
 
 % Átomos ecuatoriales (Base: 180°, 45° y -45°)
 \node (C3) at (3.65, 0.50) {}; 
@@ -601,16 +602,16 @@ Otros:
 \shade [ball color=blue!75] (C4) circle (0.15); 
 \shade [ball color=blue!70!black!80] (C5) circle (0.12);
 
-
 % =========================================================================
 % 2. GEOMETRÍA OCTAÉDRICA (Desplazada a la derecha, Centro en X=12)
 % =========================================================================
 \node (O2) at (12, 0.5) {}; 
-\node [label={[font=\bfseries, label distance=0.8cm]-90:octaédrica}] at (12, 4.5) {}; 
+% CORREGIDO: Nodo directo. No genera espacio extra arriba.
+\node [font=\bfseries] at (12, 2.6) {octaédrica}; 
 
 % Átomos axiales (Eje vertical en X=12)
-\node (C7) at (12, 2.3) {}; 
-\node (C8) at (12, -1.3) {}; 
+\node (C7) at (12, 2) {}; 
+\node (C8) at (12, -1) {}; 
 
 % Átomos ecuatoriales (Plano cuadrado desplazado +7 unidades en X)
 \node (C9)  at (10.80, 0.90) {};  % Fondo izquierda (3.80 + 7)
@@ -653,7 +654,7 @@ Otros:
 \end{tikzpicture}
 -->
 
-![...](imagenes/tema02/tipos_geometria2.svg){style="display: block; margin: 0 auto; width: 70%"}
+![...](imagenes/tema02/tipos_geometria2.svg){style="display: block; margin: 0 auto; width: 65%"}
 
 **Pasos para establecer la geometría**
 
@@ -763,92 +764,67 @@ Ejemplo de los estados de oxidación del cloro:
     % Definimos macros cortas para los espines de colores
     uR/.style={font=\small\color{red}} % Estilo para texto rojo si fuera necesario,
 ]
-    % Atajo manual directo usando \textcolor{red} dentro de las cajas:
-    % \textcolor{red}{$\uparrow$} -> Flecha roja hacia arriba
-
-    % =========================================================================
-    % FILA 1: VALENCIA 1 (y = 0)
-    % =========================================================================
     \node[anchor=west] (texto1) at (0,0) {\textbf{Cloro} con valencia 1: [Ar]};
-
     \node[box, right=0.6cm of texto1] (s1) {$\uparrow\downarrow$};
     \node[below=3pt of s1, font=\footnotesize] {3s};
-
     \node[box, right=0.5cm of s1] (p1_1) {$\uparrow\downarrow$};
     \node[box, right=0mm of p1_1] (p1_2) {$\uparrow\downarrow$};
-    \node[box, right=0mm of p1_2] (p1_3) {\textcolor{red}{$\uparrow$}}; % Desapareado en rojo
+    \node[box, right=0mm of p1_2] (p1_3) {\textcolor{red}{$\uparrow$}};
     \node[below=3pt of p1_2, font=\footnotesize] {3p};
-
     \node[box, right=0.5cm of p1_3] (d1_1) {};
     \node[box, right=0mm of d1_1] (d1_2) {};
     \node[box, right=0mm of d1_2] (d1_3) {};
     \node[box, right=0mm of d1_3] (d1_4) {};
     \node[box, right=0mm of d1_4] (d1_5) {};
     \node[below=3pt of d1_3, font=\footnotesize] {3d};
-
-
-    % =========================================================================
-    % FILA 2: VALENCIA 3 (y = -1.5)
-    % =========================================================================
+    
     \node[anchor=west] (texto3) at (0,-1.5) {\textbf{Cloro} con valencia 3: [Ar]};
-
     \node[box, right=0.6cm of texto3] (s3) {$\uparrow\downarrow$};
     \node[below=3pt of s3, font=\footnotesize] {3s};
 
     \node[box, right=0.5cm of s3] (p3_1) {$\uparrow\downarrow$};
-    \node[box, right=0mm of p3_1] (p3_2) {\textcolor{red}{$\uparrow$}}; % Desapareado en rojo
-    \node[box, right=0mm of p3_2] (p3_3) {\textcolor{red}{$\uparrow$}}; % Desapareado en rojo
+    \node[box, right=0mm of p3_1] (p3_2) {\textcolor{red}{$\uparrow$}};
+    \node[box, right=0mm of p3_2] (p3_3) {\textcolor{red}{$\uparrow$}};
     \node[below=3pt of p3_2, font=\footnotesize] {3p};
 
-    \node[box, right=0.5cm of p3_3] (d3_1) {\textcolor{red}{$\uparrow$}}; % Promovido en rojo
+    \node[box, right=0.5cm of p3_3] (d3_1) {\textcolor{red}{$\uparrow$}};
     \node[box, right=0mm of d3_1] (d3_2) {};
     \node[box, right=0mm of d3_2] (d3_3) {};
     \node[box, right=0mm of d3_3] (d3_4) {};
     \node[box, right=0mm of d3_4] (d3_5) {};
     \node[below=3pt of d3_3, font=\footnotesize] {3d};
-
-
-    % =========================================================================
-    % FILA 3: VALENCIA 5 (y = -3.0)
-    % =========================================================================
+    
     \node[anchor=west] (texto5) at (0,-3) {\textbf{Cloro} con valencia 5: [Ar]};
-
     \node[box, right=0.6cm of texto5] (s5) {$\uparrow\downarrow$};
     \node[below=3pt of s5, font=\footnotesize] {3s};
 
-    \node[box, right=0.5cm of s5] (p5_1) {\textcolor{red}{$\uparrow$}}; % Desapareado en rojo
-    \node[box, right=0mm of p5_1] (p5_2) {\textcolor{red}{$\uparrow$}}; % Desapareado en rojo
-    \node[box, right=0mm of p5_2] (p5_3) {\textcolor{red}{$\uparrow$}}; % Desapareado en rojo
+    \node[box, right=0.5cm of s5] (p5_1) {\textcolor{red}{$\uparrow$}};
+    \node[box, right=0mm of p5_1] (p5_2) {\textcolor{red}{$\uparrow$}};
+    \node[box, right=0mm of p5_2] (p5_3) {\textcolor{red}{$\uparrow$}};
     \node[below=3pt of p5_2, font=\footnotesize] {3p};
 
-    \node[box, right=0.5cm of p5_3] (d5_1) {\textcolor{red}{$\uparrow$}}; % Promovido en rojo
-    \node[box, right=0mm of d5_1] (d5_2) {\textcolor{red}{$\uparrow$}}; % Promovido en rojo
+    \node[box, right=0.5cm of p5_3] (d5_1) {\textcolor{red}{$\uparrow$}};
+    \node[box, right=0mm of d5_1] (d5_2) {\textcolor{red}{$\uparrow$}};
     \node[box, right=0mm of d5_2] (d5_3) {};
     \node[box, right=0mm of d5_3] (d5_4) {};
     \node[box, right=0mm of d5_4] (d5_5) {};
     \node[below=3pt of d5_3, font=\footnotesize] {3d};
 
-
-    % =========================================================================
-    % FILA 4: VALENCIA 7 (y = -4.5)
-    % =========================================================================
     \node[anchor=west] (texto7) at (0,-4.5) {\textbf{Cloro} con valencia 7: [Ar]};
-
-    \node[box, right=0.6cm of texto7] (s7) {\textcolor{red}{$\uparrow$}}; % Desapareado/Promovido en rojo
+    \node[box, right=0.6cm of texto7] (s7) {\textcolor{red}{$\uparrow$}};
     \node[below=3pt of s7, font=\footnotesize] {3s};
 
-    \node[box, right=0.5cm of s7] (p7_1) {\textcolor{red}{$\uparrow$}}; % Desapareado en rojo
-    \node[box, right=0mm of p7_1] (p7_2) {\textcolor{red}{$\uparrow$}}; % Desapareado en rojo
-    \node[box, right=0mm of p7_2] (p7_3) {\textcolor{red}{$\uparrow$}}; % Desapareado en rojo
+    \node[box, right=0.5cm of s7] (p7_1) {\textcolor{red}{$\uparrow$}};
+    \node[box, right=0mm of p7_1] (p7_2) {\textcolor{red}{$\uparrow$}};
+    \node[box, right=0mm of p7_2] (p7_3) {\textcolor{red}{$\uparrow$}};
     \node[below=3pt of p7_2, font=\footnotesize] {3p};
 
-    \node[box, right=0.5cm of p7_3] (d7_1) {\textcolor{red}{$\uparrow$}}; % Promovido en rojo
-    \node[box, right=0mm of d7_1] (d7_2) {\textcolor{red}{$\uparrow$}}; % Promovido en rojo
-    \node[box, right=0mm of d7_2] (d7_3) {\textcolor{red}{$\uparrow$}}; % Promovido en rojo
+    \node[box, right=0.5cm of p7_3] (d7_1) {\textcolor{red}{$\uparrow$}};
+    \node[box, right=0mm of d7_1] (d7_2) {\textcolor{red}{$\uparrow$}};
+    \node[box, right=0mm of d7_2] (d7_3) {\textcolor{red}{$\uparrow$}};
     \node[box, right=0mm of d7_3] (d7_4) {};
     \node[box, right=0mm of d7_4] (d7_5) {};
     \node[below=3pt of d7_3, font=\footnotesize] {3d};
-
 \end{tikzpicture}
 -->
 
@@ -977,13 +953,13 @@ Cantidad de enlaces que se formaran: $\ce{ET - EV = 24 - 12 = 12}$ ($\ce{6 pares
 
 Los dos átomos de carbono se enlazan entre sí y los cuatro hidrógenos se distribuyen equitativamente (dos en cada carbono). Tras formar los enlaces simples iniciales ($\ce{C-C}$ y cuatro $\ce{C-H}$), gastamos 5 pares (10 electrones). El par restante se coloca como un doble enlace entre los dos carbonos para que ambos completen su octeto.
 
-![...](imagenes/tema02/lewis_eteno.svg){style="display: block; margin: 0 auto; width: 15%"}
+![...](imagenes/tema02/lewis_eteno.svg){style="display: block; margin: 0 auto; width: 13%"}
 
 **2. Hibridación, Geometría Molecular y Ángulos de Enlace**
 
 Para determinar la geometría alrededor de cada átomo de carbono, analizamos su entorno:
 
-Densidades electrónicas (regiones de carga): Cada carbono está rodeado por 3 regiones de alta densidad electrónica (2 enlaces simples $\ce{C-H}$ y 1 enlace doble $\ce{C-C}$).
+**Densidades electrónicas** (regiones de carga): Cada carbono está rodeado por 3 regiones de alta densidad electrónica (2 enlaces simples $\ce{C-H}$ y 1 enlace doble $\ce{C-C}$).
 
 **Hibridación**: Al tener 3 regiones, la teoría de hibridación indica que cada carbono presenta una hibridación $\ce{sp^2}$. Esto deja un orbital $p$ puro sin hibridar en cada carbono para formar el enlace pi ($\pi$) del doble enlace.
 
@@ -1000,6 +976,43 @@ En una geometría trigonal plana ideal, los ángulos son de $120^\circ$. Sin emb
 Ángulo $\ce{H-C-H}$: Aproximadamente $\ce{117,4}^\circ$ (un poco menor de $\ce{120}^\circ$).
 
 Ángulo $\ce{H-C=C}$: Aproximadamente $\ce{121,3}^\circ$ (un poco mayor de $\ce{120}^\circ$).
+
+<!--
+##tikz id=geometria_hibridacion_eteno sep=2em
+\begin{tikzpicture}
+    % 1. Definición de los átomos de Carbono (C)
+    \node (C1) at (0,0) {C};
+    \node (C2) at (1.1,0) {C};
+    
+    % 2. Hidrógenos del primer Carbono (ángulos de 120 y -120 grados)
+    \node (H1) at (120:1.1) {H};
+    \node (H2) at (-120:1.1) {H};
+    
+    % 3. Hidrógenos del segundo Carbono (ángulos de 60 y -60 grados relativos a C2)
+    \node (H3) at ([shift={(60:1.1)}]C2) {H};
+    \node (H4) at ([shift={(-60:1.1)}]C2) {H};
+    
+    % 4. Enlace doble C=C (desplazados ligeramente hacia arriba y abajo)
+    \draw ([yshift=2pt]C1.east) -- ([yshift=2pt]C2.west);
+    \draw ([yshift=-2pt]C1.east) -- ([yshift=-2pt]C2.west);
+    
+    % 5. Enlaces simples C-H
+    \draw (C1) -- (H1);
+    \draw (C1) -- (H2);
+    \draw (C2) -- (H3);
+    \draw (C2) -- (H4);
+    
+    % 6. Arco rojo para indicar el ángulo de 117,4º (centrado en C1)
+    \draw[stealth-stealth, red, thin] (C1) ++(117.4:0.4) arc (117.4:240:0.4);
+    \node[red, anchor=east, font=\small] at (C1) [xshift=-0.5cm] {$117,4^\circ$};
+
+    % 7. NUEVO: Arco azul: Ángulo H-C=C (de 0° hacia el enlace C=C, hasta 120° hacia el H)
+    \draw[stealth-stealth, blue, thin] (C1) ++(15:0.4) arc (15:121.3:0.4);
+    \node[blue, font=\small] at ([shift={(60:0.75)}]C1) {$121,3^\circ$};
+\end{tikzpicture}
+-->
+
+![...](imagenes/tema02/geometria_hibridacion_eteno.svg){style="display: block; margin: 0 auto; width: 25%"}
 
 Se recomienda en principio utilizar el método RPECV que parece más sencillo, a no ser que explícitamente se pida razonarlo a partir de la teoría de orbitales híbridos.
 

@@ -79,7 +79,7 @@ TEX
     done
 
     # Limpieza de temporales de esta ronda
-#    rm -f temp_*
+    rm -f temp_*
 }
 
 # 1. Compilación inicial de todos los ficheros que existan al arrancar
